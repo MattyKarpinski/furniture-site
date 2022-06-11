@@ -76,8 +76,10 @@ const NavBar = () => {
             onClick={closeMobileMenu}
             >USŁUGI 
           </NavLink>
-          {dropdown && <DropdownMenu />}
-          <i onClick={onDropDownMenu}><FiChevronDown></FiChevronDown></i>
+          <i onClick={onDropDownMenu}><FiChevronDown className='menu-down-arrow'></FiChevronDown></i>
+          {dropdown && <DropdownMenu /> }
+          
+          
         </li>
         <li className='nav-item'>
           <NavLink className='nav-links' to='/praca' onClick={closeMobileMenu}>PRACA</NavLink>

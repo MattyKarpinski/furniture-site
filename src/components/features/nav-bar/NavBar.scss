@@ -38,6 +38,19 @@
      filter: brightness(50%);
 }
 
+.nav-menu li:nth-child(4) i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #DDC79F;
+}
+
+.nav-menu li:nth-child(4):hover i {
+  transform: rotate(-90deg);
+  transition: all 0.5s ease-out;
+}
+
 .NavbarItems img {
     width: 117px;
     height: 126px;
@@ -51,6 +64,10 @@
 
 .menu-name {
   display: none;
+}
+
+.menu-down-arrow {
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -108,6 +125,8 @@
       background-color: #DDC79F;
       border-radius: 0;
     }
+
+
   
     .menu-icon {
       display: flex;
@@ -136,4 +155,6 @@
       font-size: 46px;
       color: #DDC79F;
     }
+
+    
   }
