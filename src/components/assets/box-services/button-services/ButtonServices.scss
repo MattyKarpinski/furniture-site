@@ -1,0 +1,18 @@
+.button-services {
+    margin: 19px 0px 19px 0px;
+    width: 203px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: #DDC79F;
+    border: solid #DDC79F 2px;
+    margin: 22px 0 22px 0;
+    
+    &:hover span {
+        text-decoration: underline 1px;
+    }
+}
+
+.button-services span {
+    color: #424657;
+    font-size:  18px;
+}

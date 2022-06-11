@@ -1,0 +1,25 @@
+.footer-pages-items--wrapper {
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-pages-items--icon {
+    font-size: 18px;
+    color: #DDC79F;
+    display: flex;
+    align-items: center;
+}
+
+.footer-pages-items--link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-pages-items--link:hover {
+    color: #DDC79F;
+    text-decoration: underline;
+}

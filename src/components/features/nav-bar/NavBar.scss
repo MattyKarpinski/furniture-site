@@ -1,0 +1,139 @@
+.NavbarItems {
+    background-color: #323545;
+    height: 126px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+
+}
+
+.nav-menu {
+    
+    width: 881px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 128px;
+    //margin-left: 432px;
+    
+}
+
+.nav-item {
+   display: flex;
+   justify-content: center;
+    //margin-left: 10px;
+    //margin-right: 10px;
+    
+
+}
+
+.nav-menu a {
+    color: #DDC79F;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+     filter: brightness(50%);
+}
+
+.NavbarItems img {
+    width: 117px;
+    height: 126px;
+    cursor: pointer;
+    margin-right: 304px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.menu-name {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .NavbarItems {
+      display: flex;
+      justify-content: space-between;
+      height: 98px;
+      width: auto;
+      margin: 0 30px;
+    }
+  
+    .NavbarItems img {
+      width: 60px;
+      height: 66px;
+      cursor: pointer;
+      margin: 0;
+    }
+
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+      height: 90vh;
+      position: absolute;
+      top: 0px;
+      left: -100%;
+      opacity: 1;
+      transition: all 1s ease;
+      border-bottom-right-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+  
+    .nav-menu.active {
+      background: #424657;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease-out;
+      z-index: 1;
+    }
+
+    .nav-item {
+      display: flex;
+      //justify-content: space-between;
+   
+   }
+  
+    .nav-links {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-links:hover {
+      background-color: #DDC79F;
+      border-radius: 0;
+    }
+  
+    .menu-icon {
+      display: flex;
+      top: 0;
+      right: 0;
+      cursor: pointer;
+    }
+  
+    .menu-icon i  {
+      color: #DDC79F;
+      font-size: 36px;
+    }
+
+    .menu-name {
+      display: flex;
+      justify-content: space-around;
+      padding-top: 20px;
+    }
+
+    .menu-name span {
+      font-size: 36px;
+      color: #DDC79F;
+    }
+
+    .menu-name i {
+      font-size: 46px;
+      color: #DDC79F;
+    }
+  }

@@ -1,0 +1,21 @@
+.cooperation-list-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+
+.cooperation-list-item div {
+    width: 272px;
+    height: 128px;
+    background-color: #424657;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.cooperation-list-item p {
+    color: #CECECE;
+    font-size: 24px;  
+}

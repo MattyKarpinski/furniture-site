@@ -1,0 +1,18 @@
+.button-about-us {
+    margin: 19px 0px 19px 0px;
+    width: 254px;
+    height: 78.15px;
+    border-radius: 50px;
+    background-color: #DDC79F;
+    border-color: #DDC79F;
+    border: 1px;
+    
+    &:hover span {
+        text-decoration: underline 1px;
+    }
+}
+
+.button-about-us span {
+    color: #323545;
+    font-size:  24px;
+}

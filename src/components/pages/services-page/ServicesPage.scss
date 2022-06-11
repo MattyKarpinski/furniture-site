@@ -1,0 +1,18 @@
+#info-services {
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+
+.info-services--boxs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 34px;
+    grid-row-gap: 64px;
+}
+
+.info-services--boxs img {
+    width: 488px;
+    height: 223px;
+}

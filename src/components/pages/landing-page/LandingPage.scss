@@ -1,0 +1,262 @@
+// ---Section first---//
+#first {
+    display: flex; 
+    justify-content: center;  
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #323545;
+ 
+    width: 663px;
+}
+
+h1 {
+    color: #DDC79F;
+    font-size: 72px;
+    margin-top: 32px;
+}
+
+.landing p {
+    color: #908165;
+    font-size: 36px;
+    margin-top: 32px;
+    width: 407.89px;
+}
+
+.landing button {
+    margin-top: 32px;
+}
+
+// ---Section second---//
+#second {
+    background-color: #323545;
+}
+
+#second h2, #third h2,
+ #fifth h2,  #sixth h2, #seventh h2, #eighth h2 {
+    display: flex;
+    justify-content: center;
+    color: #70685B;
+    font-size: 48px;
+    font-weight: bold;
+    padding-top: 128px;
+    
+}
+
+#second p {
+    display: flex;
+    justify-content: center;
+    color: #DDC79F;
+    font-size: 36px;
+    
+}
+
+.history {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding-top: 64px;
+}
+
+.history img {
+    width: 608px;
+    height: 456px;
+    border-radius: 40px;
+}
+
+.history div {
+    width: 440px;
+    height: 456px;
+    background-color: #424657;
+    border-radius: 45px;
+}
+
+.diy h3 {
+    display: flex;
+    justify-content: center;
+    color: #CECECE;
+    font-size: 24px;
+    padding-top: 32px;
+}
+
+#second .history .diy p {
+    height: fit-content;
+    color: #CECECE;
+    font-size: 18px;
+    padding: 32px 32px 0px 32px;
+    text-align: justify;
+}
+
+.history ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 32px;
+    color: #CECECE;
+    font-size: 18px;
+}
+
+// ---Section Third---//
+
+.trust-us {
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding-top: 64px;
+}
+
+.third-p {
+    display: flex;
+    justify-content: center;
+    color: #DDC79F;
+    font-size: 36px;
+    
+}
+
+.trust-us img {
+    width: 608px;
+    height: 456px;
+    border-radius: 40px;
+}
+
+.trust-us-list ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 440px;
+    height: 456px;
+    background-color: #424657;
+    border-radius: 45px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.trust-us-list li {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 180px;  
+    padding-top: 32px;
+}
+
+.trust-us-list h3 {
+    color: #CECECE;
+    font-size: 24px;
+    width: 180px;
+}
+
+.trust-us-list p {
+    color: #CECECE;
+    font-size: 12px;
+    height: 94px;
+    width: 187px;
+    text-align: justify;
+    padding-top: 16px;
+}
+
+
+// ---Section Fourth ---//
+
+#fourth {
+    padding-top: 192px;
+}
+
+.data-banner {
+    background-color: #424657;
+    height: 192px;
+    display: flex;
+    justify-content: center;
+}
+
+.data-banner ul {
+    display: flex;
+    align-items: center;
+}
+
+.data-banner li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 272px;
+}
+
+.data-banner span {
+    color: #DDC79F;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.data-banner p {
+    color: #CECECE;
+    font-size: 18px;
+    padding-top: 11px;
+}
+
+
+// --- Section Fifth ---//
+
+.services-list {
+    padding: 64px 128px 0 128px;  
+}
+
+// --- Section Sixth ---//
+
+.our-realisation {
+    padding: 64px 128px 0 128px;  
+    display: flex;
+    justify-content: center;
+}
+
+// --- Section Seventh ---//
+
+.faq {
+    padding: 64px 128px 0 128px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+   
+}
+.faq-mark {
+    width: 576px;
+    height: 415px;
+}
+
+
+.faq-mark-image {
+    width: 576px;
+    height: 415px;
+}
+
+.faq-button {
+    font-size: 24px;
+    color: #DDC79F;
+    background-color: transparent;
+    height: 64px;
+    width: 254px;
+    border: 3px solid;
+    border-radius: 50px;
+    border-color: #DDC79F;  
+    z-index: 5;
+    object-position: 50% 10%;
+    transform: translate(165px, -210px);
+    
+}
+
+.faq-button a {
+    text-decoration: none;
+    color: #DDC79F;
+}
+
+// --- Section Eighth ---//
+
+.cooperation {
+    padding: 64px 128px 0px 128px; 
+}

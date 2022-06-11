@@ -1,0 +1,28 @@
+.box-work-description {
+    width: 576px;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 32px;
+    grid-row-gap: 0px;
+    
+}
+
+.box-work--characteristic { grid-area: 1 / 1 / 2 / 3; }
+.box-work--experience { grid-area: 2 / 1 / 3 / 2; }
+.box-work--dutys { grid-area: 2 / 2 / 3 / 3; }
+
+.box-work--experience,
+.box-work--dutys {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-work--experience-list li,
+.box-work--dutys-list li {
+    padding-bottom: 16px;
+    list-style: none;
+    align-self: center;
+}

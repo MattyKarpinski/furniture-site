@@ -1,0 +1,30 @@
+.box-work-offer{
+    width: 1184px;
+    height: 682px;
+    background-color: #DDC79F;
+    border-radius: 20px;
+}
+
+.box-work-offer--head {
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box-work-offer--header {
+    font-size: 24px;
+    color: #323545;
+    text-transform: uppercase;
+}
+
+.box-work-offer--body {
+    width: 1184px;
+    height: 611px;
+    background-color: #424657;
+    padding-top: 33px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}

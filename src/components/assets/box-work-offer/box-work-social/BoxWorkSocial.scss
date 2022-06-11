@@ -1,0 +1,14 @@
+.box-work-social {
+    width: 272px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 32px;
+}
+
+.box-work-social img {
+    object-fit: cover;
+    height: 278px;
+    width: 272px;
+}

@@ -1,0 +1,108 @@
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.post {
+    width: 1184px;
+    height: 362px;
+    display: flex;
+}
+
+.post--content-left {
+    width: 142px;
+    background-color: #DDC79F;
+    border-radius: 20px 0 0 20px;
+}
+
+.post--date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 16px 0 16px;
+}
+
+.post--date-number {
+    font-size: 36px;
+}
+
+.post--date-month {
+    font-size: 24px;
+}
+
+.post--date-day {
+    font-size: 18px;
+}
+
+.post--content-right {
+    width: 1042px;
+    background-color: #424657;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 32px;
+}
+
+.post--content-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.post--content-1 img {
+    object-fit: cover;
+    width: 402px;
+    height: 234px;
+}
+
+.post--social-icons {
+     padding-top: 16px;
+}
+
+.post--social-icons-list a {
+    color:#DDC79F;
+    font-size: 32px;
+}
+
+.post--social-icons-list li {
+    padding-right: 32px;
+}
+
+.post--social-icons-list {
+    list-style: none;
+    display: flex;
+}
+
+.post--content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post--content-2 p {
+    font-size: 18px;
+    color: #CECECE;
+    width: 544px;
+    height: auto;
+    padding: 64px 0 64px 0;
+}
+
+.post--content-2 button {
+    width: 254px;
+    height: 64px;
+    border-radius: 50px;
+    background-color: #DDC79F;
+    border: none;
+    font-size: 24px;
+    color: #323545;
+}
+
+.post--content-2 button:hover{
+    text-decoration: 2px solid underline;
+    cursor: pointer;
+}

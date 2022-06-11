@@ -1,0 +1,9 @@
+.listWrapper__wrapper {
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 0fr);
+    grid-template-rows: repeat(2, 0fr);
+    grid-column-gap: 32px; 
+    grid-row-gap: 32px;
+}

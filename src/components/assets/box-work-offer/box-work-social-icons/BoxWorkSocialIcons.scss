@@ -1,0 +1,19 @@
+.box-work--social-icons {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 36px;
+}
+
+.box-work--social-icons-list a {
+    color:#DDC79F;
+    font-size: 32px;
+}
+
+.box-work--social-icons-list li {
+    padding-right: 32px;
+}
+
+.box-work--social-icons-list {
+    list-style: none;
+    display: flex;
+}

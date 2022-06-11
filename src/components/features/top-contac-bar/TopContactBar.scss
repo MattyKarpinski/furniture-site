@@ -1,0 +1,36 @@
+#topcontactbar {
+    display: inline-flex;
+    justify-content: flex-end; 
+    background-color: #DDC79F;
+    width: 100%;
+}
+
+#topcontactbar p {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: #323545;
+    margin: 0px;
+}
+
+.e-mail{
+    width: 364px;
+}
+
+.tel {
+    width: 250px;
+}
+
+@media screen and (max-width: 390px) {
+
+    #topcontactbar {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+
+    #topcontactbar p {
+        font-size: 12px;
+        width: auto;
+    }
+}

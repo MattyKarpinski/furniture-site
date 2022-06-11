@@ -1,0 +1,49 @@
+.footer-information i {
+    color: #DDC79F;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 18px;
+}
+
+.footer-information span {
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.footer-information--row1 {
+    padding-bottom: 32px;
+}
+
+.footer-information--adress {
+    display: flex;
+}
+
+.footer-information--adress span {
+    display: flex;
+    align-content: center;
+}
+
+.footer-information--email {
+    display: flex;
+}
+
+.footer-information--email span {
+    display: flex;
+    align-content: center;
+    padding-bottom: 16px;
+}
+.footer-information--tel {
+    padding-bottom: 16px;
+}
+
+.footer-information--tel a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-information--tel a:hover {
+    color: #DDC79F;
+    text-decoration: underline;
+}
