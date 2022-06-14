@@ -2,21 +2,15 @@
 import './FaqDropdawnList.scss';
 import React, { useState } from 'react';
 import {FiChevronDown } from "react-icons/fi";
+import { AccordionData } from './FaqTypes';
+import FaqAccordionItem from './FaqAccordionItem';
 
-const FaqDropdawnList = () => {
+const FaqDropdawnList = ({items}: {items: Array<AccordionData>}) => {
 
-
-    const [clicked, setClicked] = useState(false);
-
-    const toggle = index => {
-        if(clicked === index) {
-
-            return setClicked(null)
-        }
-        else {
-        setClicked(index)
-        }
-    }
+const [currentIdx, setCurrentIdx] = useState(-1);
+const btnOnClick = (idx: number) => {
+    setCurrentIdx((currentValue) => (currentValue !== idx ? idx : -1));
+};
 
 return (
     <div className='faq-dropdown-list'>
@@ -26,24 +20,16 @@ return (
             possimus autem dignissimos, optio debitis reprehenderit 
             quis doloremque quibusdam nisi dolor labore fugit nesciunt?
         </p>
-        <ul>
-            <li onClick={() => toggle(index)} key={index}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <i><FiChevronDown></FiChevronDown></i>
-            </li>
-            <li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <i><FiChevronDown></FiChevronDown></i>
-            </li>
-            <li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <i><FiChevronDown></FiChevronDown></i>
-            </li>
-            <li>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <i><FiChevronDown></FiChevronDown></i>
-            </li>
-        </ul>
+        <ul className="accordion">
+      {items.map((item, idx) => (
+        <FaqAccordionItem
+          key={idx}
+          data={item}
+          isOpen={idx === currentIdx}
+          btnOnClick={() => btnOnClick(idx)}
+        />
+      ))}
+    </ul>
     </div>
 )
 

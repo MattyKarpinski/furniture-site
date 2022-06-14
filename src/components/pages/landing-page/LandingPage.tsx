@@ -11,6 +11,7 @@ import faq from '../../assets/photos/faq.png';
 import FaqDropdawnList from '../../features/faq-dropdawn-list/FaqDropdawnList';
 import CooperationWrapper from '../../features/cooperation/CooperationWrapper';
 import Footer from '../../features/footer/Footer';
+import { FaqAccordionItems } from '../../features/faq-dropdawn-list/FaqAccordionItems';
 
 
 const LandingPage = () => {
@@ -136,7 +137,7 @@ const LandingPage = () => {
          <a href="tel:+48-567-234-789">ZADZWOŃ</a>
         </button>
       </div>
-      <FaqDropdawnList></FaqDropdawnList>
+      <FaqDropdawnList items={FaqAccordionItems}></FaqDropdawnList>
     </div>
   </section>
 
