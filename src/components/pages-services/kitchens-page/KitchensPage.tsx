@@ -56,10 +56,10 @@ export default function KitchensPage() {
               consectetur adipiscing elit. Dui, habitant consectetur adipiscing elit. Dui,
               habitant">
           </TextBoxServicesPages>
-          <img src={Kitchen1} alt="Przestrzeń do pracy z biurkiem wieloosobowym" />
+          <img src={Kitchen1} alt="Czarna matowa kuchnia" />
         </MainRowServicesPages>
         <MainRowServicesPages>
-          <img src={Kitchen2} alt="Otwarta przestrzeń biurowa" />
+          <img src={Kitchen2} alt="Otwarta kuchnia w kolorze niebiesko pruskim" />
           <TextBoxServicesPages
               title="Biura komórkowe"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant 
@@ -82,7 +82,7 @@ export default function KitchensPage() {
               consectetur adipiscing elit. Dui, habitant consectetur adipiscing elit. Dui,
               habitant">
           </TextBoxServicesPages>
-          <img src={Kitchen3} alt="Biurowa strefa odpoczynku" />
+          <img src={Kitchen3} alt="Marmurowa kuchnia" />
         </MainRowServicesPages>
       </MainContentServicesPages>
     </div>

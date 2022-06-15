@@ -11,6 +11,7 @@ import Mancutting from '../../assets/photos/about-us-photos/man-cutting.jpg';
 import Meetingoffice from '../../assets/photos/about-us-photos/meeting-office.jpg';
 import Typingnachine from '../../assets/photos/about-us-photos/typing-machine.jpg';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
+import { Link } from 'react-router-dom';
 
 
 
@@ -62,7 +63,9 @@ const AboutUsPage = () => {
               elit. Dui, habitant consectetur adipiscing elit. Dui, habitant 
               Lorem ipsum dolor sit amet, consechj
             </ParagraphAboutUs>
-            <Buttonaboutus></Buttonaboutus>
+            <Link to='/uslugi'>
+              <Buttonaboutus></Buttonaboutus>
+            </Link>
           </BoxAboutUs>
           <img src={Greenkitchen} alt="Green kitchen" />
           <img src={Mancutting} alt="Green kitchen" />
@@ -77,7 +80,9 @@ const AboutUsPage = () => {
               elit. Dui, habitant consectetur adipiscing elit. Dui, habitant 
               Lorem ipsum dolor sit amet, consechj
             </ParagraphAboutUs>
-            <Buttonaboutus></Buttonaboutus>
+            <Link to='/praca'>
+              <Buttonaboutus></Buttonaboutus>
+            </Link>
           </BoxAboutUs>
           <BoxAboutUs>
             <HeaderBoxAboutUs>Ciekawostki z branży meblarskiej</HeaderBoxAboutUs>
@@ -90,7 +95,9 @@ const AboutUsPage = () => {
               elit. Dui, habitant consectetur adipiscing elit. Dui, habitant 
               Lorem ipsum dolor sit amet, consechj
             </ParagraphAboutUs>
-            <Buttonaboutus></Buttonaboutus>
+            <Link to='/blog'>
+              <Buttonaboutus></Buttonaboutus>
+            </Link>
           </BoxAboutUs>
           <img src={Meetingoffice} alt="Green kitchen" />
           <img src={Typingnachine} alt="Green kitchen" />
@@ -105,7 +112,9 @@ const AboutUsPage = () => {
               elit. Dui, habitant consectetur adipiscing elit. Dui, habitant 
               Lorem ipsum dolor sit amet, consechj
             </ParagraphAboutUs>
-            <Buttonaboutus></Buttonaboutus>
+            <Link to='/kontakt'>
+              <Buttonaboutus></Buttonaboutus>
+            </Link>
           </BoxAboutUs>
         </div>
       </section>
