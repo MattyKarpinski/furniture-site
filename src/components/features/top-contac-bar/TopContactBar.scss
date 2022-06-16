@@ -5,12 +5,13 @@
     width: 100%;
 }
 
-#topcontactbar p {
+#topcontactbar a {
     display: flex;
     align-items: center;
     height: 30px;
     color: #323545;
     margin: 0px;
+    text-decoration: none;
 }
 
 .e-mail{
@@ -29,7 +30,7 @@
     }
 
 
-    #topcontactbar p {
+    #topcontactbar a {
         font-size: 12px;
         width: auto;
     }

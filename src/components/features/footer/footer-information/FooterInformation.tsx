@@ -17,7 +17,7 @@ export default function FooterInformation() {
         </div>
         <div className='footer-information--email'>
           <i><AiOutlineMail></AiOutlineMail></i>
-          <span>e-mail:<br></br>furniturezone@gmail.com</span>
+          <a href="mailto:furniturezone@gmail.com">e-mail:<br></br>furniturezone@gmail.com</a>
         </div>
         <div className='footer-information--open-hours'>
           <i><AiOutlineClockCircle></AiOutlineClockCircle></i>

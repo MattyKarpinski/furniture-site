@@ -1,0 +1,32 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.back-to-top-button {
+    position: absolute;
+    right: 8%;
+    background-color: #323545;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.back-to-top-button--icon {
+    font-size: 40px;
+    color: #DDC79F;
+}
+
+.back-to-top-button:hover {
+    background-color: #DDC79F;
+    transition: 1s ease;
+}
+
+.back-to-top-button--icon:hover {
+    font-size: 40px;
+    color: #323545;
+}

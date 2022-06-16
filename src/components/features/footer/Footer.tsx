@@ -8,6 +8,7 @@ import FooterServicesList from './footer-services-list/FooterServicesList';
 import { FaRegHeart } from "react-icons/fa";
 import FooterPagesList from './footer-pages-list/FooterPagesList';
 import FooterInformation from './footer-information/FooterInformation';
+import BackToTopButton from '../back-to-top-button/BackToTopButton';
 
 
 const Footer = () => {
@@ -46,6 +47,7 @@ const Footer = () => {
           </div>
           <div className='footer-main--col4'>
             <FooterInformation></FooterInformation>
+            <BackToTopButton></BackToTopButton>
           </div>
         </div>
       </div>
