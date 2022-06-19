@@ -89,3 +89,30 @@
     color: #DDC79F;
     text-decoration: underline;
 }
+
+.contact-page--button {
+    width: 254px;
+    height: 64px;
+    background-color: #DDC79F;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    color:#323545;
+}
+
+.contact-page--button:hover {
+    text-decoration: underline;
+}
+
+.contact-page--button-section {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-page--form-content {
+    background-color:#424657;
+}
+
+.contact-page--form-content span {
+    font-size: 10px;
+}

@@ -1,6 +1,6 @@
 .contact-cv-form{
     width: 1184px;
-    height: 829px;
+    height: 845px;
     background-color: #DDC79F;
     border-radius: 20px;
 }
@@ -12,7 +12,6 @@
     align-items: center;
 }
 
-
 .contact-cv--header {
     font-size: 24px;
     color: #323545;
@@ -21,11 +20,9 @@
 
 .contact-cv--body {
     width: 1184px;
-    height: 760px;
+    height: 776px;
     background-color: #424657;
-    padding: 32px 32px 0 32px;
-
-    
+    padding: 32px 32px 0 32px;  
 }
 
 .contact-cv--info {
@@ -39,7 +36,6 @@
 }
 
 .contact-cv--button {
-
     width: 254px;
     height: 64px;
     background-color: #DDC79F;
@@ -56,4 +52,8 @@
 .contact-cv--button-section {
     display: flex;
     justify-content: center;
+}
+
+.contact-cv--form-content {
+    background-color:#424657;
 }
