@@ -16,11 +16,11 @@ export default function Map() {
 }
 
   function Mapdata() {
-    const center = useMemo(() => ({lat: 44, lng: -80}), []);
+    const center = useMemo(() => ({lat: 52.2378203, lng: 21.0109468}), []);
 
       return (
       <GoogleMap 
-        zoom={10} 
+        zoom={13} 
         center={center} 
         mapContainerClassName="map-container"
         >

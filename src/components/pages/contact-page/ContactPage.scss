@@ -46,11 +46,35 @@
 .contact-page--data-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px 0 16px 0;
+}
+
+.contact-page--data-body h4 {
+    font-size: 24px;
+    color: #DDC79F;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-page--data-list {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.contact-page--data-list li:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-page--data-list li:nth-child(2) span {
+    display: flex;
+    justify-content: center;
 }
 
 .contact-page--data-body i {
@@ -61,7 +85,7 @@
 }
 
 .contact-page--data-body span {
-    color: #fff;
+    color: #CECECE;
     font-size: 18px;
 }
 
@@ -79,15 +103,29 @@
     padding-bottom: 16px;
 }
 
-.contact-page--tel a {
-    color: #fff;
+.contact-page--tel a,
+.contact-page--data-list a,
+.contact-page--email a {
+    color: #CECECE;
     text-decoration: none;
     font-size: 18px;
 }
 
-.contact-page--tel a:hover {
+.contact-page--tel a:hover,
+.contact-page--data-list a:hover,
+.contact-page--email a:hover {
     color: #DDC79F;
     text-decoration: underline;
+}
+
+.contact-page--adress {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-page--adress div {
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-page--button {
@@ -115,4 +153,9 @@
 
 .contact-page--form-content span {
     font-size: 10px;
+}
+
+.contact-page--form-check-box {
+    display: flex;
+    justify-content: flex-end;
 }
