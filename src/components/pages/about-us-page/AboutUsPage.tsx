@@ -18,7 +18,6 @@ import { Link } from 'react-router-dom';
 const AboutUsPage = () => {
   return (
     <div className='about-us-page'>
-      <BreadcrumbsBackground></BreadcrumbsBackground>
       <MainHeaderTwo>Poznajmy się</MainHeaderTwo>
       <TextBox>
         <TextBlock>

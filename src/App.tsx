@@ -19,14 +19,17 @@ import ConsolePage from './components/pages-services/console-page/ConsolePage';
 import TvCabinetsPage from './components/pages-services/tv-cabinets-page/TvCabinetsPage';
 import ExhibitionsPage from './components/pages-services/exhibitions-page/ExhibitionsPage';
 import CabinetsPage from './components/pages-services/cabinets-page/CabinetsPage';
+import BreadcrumbsBackground from './components/assets/breadcrumbs-background/BreadcrumbsBackground';
 
 
 
 const App = () => {
   return <div>
     
+    
     <TopContactBar></TopContactBar>
     <NavBar></NavBar>
+    <BreadcrumbsBackground></BreadcrumbsBackground>
     
     
     <Routes>
