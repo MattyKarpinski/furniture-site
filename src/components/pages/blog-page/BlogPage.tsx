@@ -1,6 +1,5 @@
 import React from 'react'
 import './BlogPage.scss';
-import BreadcrumbsBackground from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
 import Blog1 from '../../assets/photos/blog-photos/blog1.jpeg';
 import { BsFillShareFill } from "react-icons/bs";
@@ -11,7 +10,6 @@ import { FaYoutubeSquare } from "react-icons/fa";
 const BlogPage = () => {
   return (
     <div className='blog-page'>
-      <BreadcrumbsBackground></BreadcrumbsBackground>
       <MainHeaderTwo>Najciekawsze informacje z świata mebli</MainHeaderTwo>
       <div className='blog-posts'>
       <div className='post'>

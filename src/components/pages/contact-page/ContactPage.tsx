@@ -1,6 +1,5 @@
 import React from 'react';
 import './ContactPage.scss';
-import BreadcrumbsBackground from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
 import { TextBlock } from '../../assets/text-block/TextBlock';
 import { TextBox } from '../../assets/text-box/TextBox';
@@ -31,7 +30,6 @@ const ContactPage = () => {
 
   return (
     <div className='contact-page'>
-      <BreadcrumbsBackground></BreadcrumbsBackground>
       <MainHeaderTwo>Zapraszamy do kontaktu</MainHeaderTwo>
       <TextBox>
         <TextBlock>

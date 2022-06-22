@@ -6,7 +6,6 @@ import ButtonServices from '../../assets/box-services/button-services/ButtonServ
 import { HeaderBoxServices } from '../../assets/box-services/header-box-services/HeaderBoxServices';
 import { ParagraphServices } from '../../assets/box-services/paragraph-services/ParagraphServices';
 import { BoxServices } from '../../assets/box-services/BoxServices';
-import BreadcrumbsBackground from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { TextBlock } from '../../assets/text-block/TextBlock';
 import { TextBox } from '../../assets/text-box/TextBox';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
@@ -23,7 +22,6 @@ import Exhibition3 from '../../assets/photos/exhibitions-photos/exhibition3.jpg'
 const ServicesPage = () => {
   return (
     <div className='services-page'>
-      <BreadcrumbsBackground></BreadcrumbsBackground>
       <MainHeaderTwo>Sprawdź ofertę</MainHeaderTwo>
       <TextBox>
         <TextBlock>

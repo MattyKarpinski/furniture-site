@@ -1,7 +1,5 @@
 import React from 'react'
 import './WorkPage.scss';
-
-import BreadcrumbsBackground from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
 import { BoxWorkOffer } from '../../assets/box-work-offer/BoxWorkOffer';
 import { ContactCvForm } from '../../assets/contact-cv-form/ContactCvForm';
@@ -9,7 +7,6 @@ import { ContactCvForm } from '../../assets/contact-cv-form/ContactCvForm';
 const WorkPage = () => {
   return (
     <div className='work-page'>
-      <BreadcrumbsBackground></BreadcrumbsBackground>
       <MainHeaderTwo>Dołącz do naszego zespołu</MainHeaderTwo>
       <section id='work-page--offers'>
         <div className='work-page--offers-boxs'>

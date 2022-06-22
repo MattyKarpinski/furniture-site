@@ -1,5 +1,5 @@
 import './App.scss';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 
 import LandingPage from './components/pages/landing-page/LandingPage';
 import AboutUsPage from './components/pages/about-us-page/AboutUsPage';
@@ -21,16 +21,12 @@ import ExhibitionsPage from './components/pages-services/exhibitions-page/Exhibi
 import CabinetsPage from './components/pages-services/cabinets-page/CabinetsPage';
 import BreadcrumbsBackground from './components/assets/breadcrumbs-background/BreadcrumbsBackground';
 
-
-
 const App = () => {
   return <div>
-    
     
     <TopContactBar></TopContactBar>
     <NavBar></NavBar>
     <BreadcrumbsBackground></BreadcrumbsBackground>
-    
     
     <Routes>
       <Route path="/" element={<LandingPage />} />
@@ -51,10 +47,7 @@ const App = () => {
     </Routes>
 
     <Footer></Footer>
-    
   </div>;
 }
 
 export default App;
-
-
