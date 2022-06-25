@@ -15,12 +15,6 @@ import { MainRowServicesPages } from '../../assets/main-content-services-pages/m
 export default function KitchensPage() {
   return (
     <div className='kitchens-page'>
-      <div className='bedroom-page--head-section'>
-        <div className='bedroom-page--head-breadcrumbs'>
-          <MainHeaderOne>Kuchnie</MainHeaderOne>
-          <span>Strona główna | Usługi | Kuchnie</span>
-        </div>
-      </div>
       <div className='bedroom-page--text-section'>
         <MainHeaderTwo>Zaprojektowane przestrzenie biurowe</MainHeaderTwo>
         <TextBox>

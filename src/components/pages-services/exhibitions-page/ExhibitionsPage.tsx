@@ -15,12 +15,6 @@ import { MainRowServicesPages } from '../../assets/main-content-services-pages/m
 export default function ExhibitionsPage() {
   return (
     <div className='offices-page'>
-      <div className='bedroom-page--head-section'>
-        <div className='bedroom-page--head-breadcrumbs'>
-          <MainHeaderOne>Wystawy</MainHeaderOne>
-          <span>Strona główna | Usługi | Wystawy</span>
-        </div>
-      </div>
       <div className='bedroom-page--text-section'>
         <MainHeaderTwo>Artystyczne i muzealne wystawy</MainHeaderTwo>
         <TextBox>

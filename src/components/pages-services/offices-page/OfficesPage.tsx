@@ -15,12 +15,6 @@ import { MainRowServicesPages } from '../../assets/main-content-services-pages/m
 export default function OfficesPage() {
   return (
     <div className='offices-page'>
-      <div className='bedroom-page--head-section'>
-        <div className='bedroom-page--head-breadcrumbs'>
-          <MainHeaderOne>Biura</MainHeaderOne>
-          <span>Strona główna | Usługi | Biura</span>
-        </div>
-      </div>
       <div className='bedroom-page--text-section'>
         <MainHeaderTwo>Zaprojektowane przestrzenie biurowe</MainHeaderTwo>
         <TextBox>

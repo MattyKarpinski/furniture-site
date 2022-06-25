@@ -15,12 +15,6 @@ import { MainRowServicesPages } from '../../assets/main-content-services-pages/m
 export default function DresserPage() {
   return (
     <div className='kitchens-page'>
-      <div className='bedroom-page--head-section'>
-        <div className='bedroom-page--head-breadcrumbs'>
-          <MainHeaderOne>Komody</MainHeaderOne>
-          <span>Strona główna | Usługi | Komody</span>
-        </div>
-      </div>
       <div className='bedroom-page--text-section'>
         <MainHeaderTwo>Szykowne i gustowne komody</MainHeaderTwo>
         <TextBox>

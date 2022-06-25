@@ -15,12 +15,6 @@ import { MainRowServicesPages } from '../../assets/main-content-services-pages/m
 export default function ConsolePage() {
   return (
     <div className='offices-page'>
-      <div className='bedroom-page--head-section'>
-        <div className='bedroom-page--head-breadcrumbs'>
-          <MainHeaderOne>Konsole</MainHeaderOne>
-          <span>Strona główna | Usługi | Konsole</span>
-        </div>
-      </div>
       <div className='bedroom-page--text-section'>
         <MainHeaderTwo>Praktyczne wykorzystanie konsol</MainHeaderTwo>
         <TextBox>

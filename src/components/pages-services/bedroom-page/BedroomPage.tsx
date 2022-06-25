@@ -15,12 +15,6 @@ import { MainRowServicesPages } from '../../assets/main-content-services-pages/m
 export default function BedroomPage() {
   return (
     <div className='bedroom-page'>
-      <div className='bedroom-page--head-section'>
-        <div className='bedroom-page--head-breadcrumbs'>
-          <MainHeaderOne>Sypialnie</MainHeaderOne>
-          <span>Strona główna | Usługi | Sypialnie</span>
-        </div>
-      </div>
       <div className='bedroom-page--text-section'>
         <MainHeaderTwo>Sypialenie oraz garderoby</MainHeaderTwo>
         <TextBox>

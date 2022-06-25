@@ -12,12 +12,14 @@ import Meetingoffice from '../../assets/photos/about-us-photos/meeting-office.jp
 import Typingnachine from '../../assets/photos/about-us-photos/typing-machine.jpg';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
 import { Link } from 'react-router-dom';
+import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 
 
 
 const AboutUsPage = () => {
   return (
     <div className='about-us-page'>
+      <MainHeaderOne> O nas</MainHeaderOne>
       <MainHeaderTwo>Poznajmy się</MainHeaderTwo>
       <TextBox>
         <TextBlock>
