@@ -16,6 +16,7 @@ export default function OfficesPage() {
   return (
     <div className='offices-page'>
       <div className='bedroom-page--text-section'>
+      <MainHeaderOne> Biura</MainHeaderOne>
         <MainHeaderTwo>Zaprojektowane przestrzenie biurowe</MainHeaderTwo>
         <TextBox>
           <TextBlock>

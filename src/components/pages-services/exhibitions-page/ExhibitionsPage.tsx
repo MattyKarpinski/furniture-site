@@ -16,6 +16,7 @@ export default function ExhibitionsPage() {
   return (
     <div className='offices-page'>
       <div className='bedroom-page--text-section'>
+      <MainHeaderOne> Wystawy</MainHeaderOne>
         <MainHeaderTwo>Artystyczne i muzealne wystawy</MainHeaderTwo>
         <TextBox>
           <TextBlock>

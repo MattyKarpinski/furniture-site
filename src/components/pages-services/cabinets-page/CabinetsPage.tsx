@@ -16,6 +16,7 @@ export default function CabinetsPage() {
   return (
     <div className='offices-page'>
       <div className='bedroom-page--text-section'>
+        <MainHeaderOne> Gabinety</MainHeaderOne>
         <MainHeaderTwo>Profesjonalne gabinety</MainHeaderTwo>
         <TextBox>
           <TextBlock>

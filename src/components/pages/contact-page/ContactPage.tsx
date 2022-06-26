@@ -8,6 +8,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import { SiGooglemaps } from "react-icons/si";
 import Map from '../../features/map/Map';
+import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 
 import { Card, CardContent, Grid, TextField, ThemeProvider, Checkbox, } from '@mui/material';
 import { createTheme } from '@mui/material';
@@ -30,6 +31,7 @@ const ContactPage = () => {
 
   return (
     <div className='contact-page'>
+      <MainHeaderOne> Kontakt</MainHeaderOne>
       <MainHeaderTwo>Zapraszamy do kontaktu</MainHeaderTwo>
       <TextBox>
         <TextBlock>

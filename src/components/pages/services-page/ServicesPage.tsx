@@ -17,11 +17,13 @@ import Dresser1 from '../../assets/photos/dresser-photos/dresser1.jpg';
 import Console2 from '../../assets/photos/console-photos/console2.jpg';
 import TvCabinets3 from '../../assets/photos/tv-cabinets-photos/tv-cabinets3.jpg';
 import Exhibition3 from '../../assets/photos/exhibitions-photos/exhibition3.jpg';
+import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 
 
 const ServicesPage = () => {
   return (
     <div className='services-page'>
+      <MainHeaderOne> Usługi</MainHeaderOne>
       <MainHeaderTwo>Sprawdź ofertę</MainHeaderTwo>
       <TextBox>
         <TextBlock>

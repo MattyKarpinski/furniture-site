@@ -16,6 +16,7 @@ export default function TvCabinetsPage() {
   return (
     <div className='offices-page'>
       <div className='bedroom-page--text-section'>
+        <MainHeaderOne> Szafki RTV</MainHeaderOne>
         <MainHeaderTwo>Modernistyczne szafki rtv</MainHeaderTwo>
         <TextBox>
           <TextBlock>

@@ -6,10 +6,12 @@ import { BsFillShareFill } from "react-icons/bs";
 import { FaTwitterSquare } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaYoutubeSquare } from "react-icons/fa";
+import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 
 const BlogPage = () => {
   return (
     <div className='blog-page'>
+      <MainHeaderOne>Blog</MainHeaderOne>
       <MainHeaderTwo>Najciekawsze informacje z świata mebli</MainHeaderTwo>
       <div className='blog-posts'>
       <div className='post'>

@@ -16,6 +16,7 @@ export default function ConsolePage() {
   return (
     <div className='offices-page'>
       <div className='bedroom-page--text-section'>
+        <MainHeaderOne> Konsole</MainHeaderOne>
         <MainHeaderTwo>Praktyczne wykorzystanie konsol</MainHeaderTwo>
         <TextBox>
           <TextBlock>

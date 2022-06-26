@@ -16,6 +16,7 @@ export default function BedroomPage() {
   return (
     <div className='bedroom-page'>
       <div className='bedroom-page--text-section'>
+        <MainHeaderOne>Sypialnie</MainHeaderOne>
         <MainHeaderTwo>Sypialenie oraz garderoby</MainHeaderTwo>
         <TextBox>
           <TextBlock>

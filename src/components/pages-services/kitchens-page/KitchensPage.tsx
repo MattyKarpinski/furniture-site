@@ -16,6 +16,7 @@ export default function KitchensPage() {
   return (
     <div className='kitchens-page'>
       <div className='bedroom-page--text-section'>
+      <MainHeaderOne> Kuchnie</MainHeaderOne>
         <MainHeaderTwo>Zaprojektowane przestrzenie biurowe</MainHeaderTwo>
         <TextBox>
           <TextBlock>

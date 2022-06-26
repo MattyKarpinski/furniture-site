@@ -16,6 +16,7 @@ export default function DresserPage() {
   return (
     <div className='kitchens-page'>
       <div className='bedroom-page--text-section'>
+        <MainHeaderOne> Komody</MainHeaderOne>
         <MainHeaderTwo>Szykowne i gustowne komody</MainHeaderTwo>
         <TextBox>
           <TextBlock>
