@@ -1,7 +1,8 @@
 
 import Button from '../../features/button/Button';
-import Slider from '../../features/slider/Slider';
 import ServicesWrapper from '../../features/serviceswrapper/ServicesWrapper';
+import FirstSlider from '../../features/first-slider/FirstSlider';
+import { FirstSliderItems } from '../../features/first-slider/FirstSliderItems';
 import SecondSlider from '../../features/second-slider/SecondSlider';
 import { SecondSliderItems } from '../../features/second-slider/SecondSliderItems';
 import './LandingPage.scss';
@@ -10,8 +11,8 @@ import screwingself from '../../assets/photos/screwing-self.jpg';
 import faq from '../../assets/photos/faq.png';
 import FaqDropdawnList from '../../features/faq-dropdawn-list/FaqDropdawnList';
 import CooperationWrapper from '../../features/cooperation/CooperationWrapper';
-import Footer from '../../features/footer/Footer';
 import { FaqAccordionItems } from '../../features/faq-dropdawn-list/FaqAccordionItems';
+
 
 
 const LandingPage = () => {
@@ -25,6 +26,9 @@ const LandingPage = () => {
        <h1>ZAKŁAD <br></br> STOLARSKI</h1>
        <p>MEBLE NA WMIAR</p>
        <Button></Button>
+      </div>
+      <div className='landing-slider'>
+        <FirstSlider slides={FirstSliderItems}></FirstSlider>
       </div>
     </section>
 
