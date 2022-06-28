@@ -1,7 +1,7 @@
 .faq-dropdown-list {
     background-color: #424657;
     width: 576px;
-    height: 454px;
+    height: auto;
     border-radius: 20px;
     display: flex;
     justify-content: flex-start;
@@ -23,11 +23,17 @@
     color: #CECECE;
 }
 
-.faq-dropdown-list ul {
+.faq-dropdown-list {
     padding: 0 32px 32px 32px;
+    background-color: #424657;
     list-style: none;
 }
-.faq-dropdown-list li {
+
+.faq-dropdown-list-box {
+    background-color: #424657;
+}
+
+.faq-dropdown-list-item {
     color: #DDC79F;
     background-color: #5A5F73;
     margin-bottom: 16px;
@@ -38,10 +44,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.faq-dropdown-list i {
-    display: flex;
-    align-items: center;
-    padding-left: 5px;
 }

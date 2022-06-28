@@ -1,16 +1,21 @@
 
 import './FaqDropdawnList.scss';
 import React, { useState } from 'react';
-import {FiChevronDown } from "react-icons/fi";
-import { AccordionData } from './FaqTypes';
-import FaqAccordionItem from './FaqAccordionItem';
+import { FiChevronDown } from "react-icons/fi";
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
 
-const FaqDropdawnList = ({items}: {items: Array<AccordionData>}) => {
+const FaqDropdawnList = () => {
 
-const [currentIdx, setCurrentIdx] = useState(-1);
-const btnOnClick = (idx: number) => {
-    setCurrentIdx((currentValue) => (currentValue !== idx ? idx : -1));
-};
+  const BoxStyles = {
+    backgroundColor: '#424657',
+  };
+
+  const arrowStyles = {
+    color: '#DDC79F',
+  };
 
 return (
     <div className='faq-dropdown-list'>
@@ -20,16 +25,50 @@ return (
             possimus autem dignissimos, optio debitis reprehenderit 
             quis doloremque quibusdam nisi dolor labore fugit nesciunt?
         </p>
-        <ul className="accordion">
-      {items.map((item, idx) => (
-        <FaqAccordionItem
-          key={idx}
-          data={item}
-          isOpen={idx === currentIdx}
-          btnOnClick={() => btnOnClick(idx)}
-        />
-      ))}
-    </ul>
+        <div className='aq-dropdown-list'>
+      <Accordion className='faq-dropdown-list-box' style={BoxStyles}>
+        <AccordionSummary className='faq-dropdown-list-item'
+          expandIcon={<FiChevronDown style={arrowStyles}/>}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion className='faq-dropdown-list-box'>
+        <AccordionSummary className='faq-dropdown-list-item'
+          expandIcon={<FiChevronDown style={arrowStyles}/>}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion className='faq-dropdown-list-box'>
+        <AccordionSummary className='faq-dropdown-list-item'
+          expandIcon={<FiChevronDown style={arrowStyles}/>}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+          <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+    </div>
     </div>
 )
 

@@ -141,7 +141,7 @@ const LandingPage = () => {
          <a href="tel:+48-567-234-789">ZADZWOŃ</a>
         </button>
       </div>
-      <FaqDropdawnList items={FaqAccordionItems}></FaqDropdawnList>
+      <FaqDropdawnList></FaqDropdawnList>
     </div>
   </section>
 
