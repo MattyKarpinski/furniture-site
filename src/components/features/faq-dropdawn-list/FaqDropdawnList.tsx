@@ -11,10 +11,25 @@ const FaqDropdawnList = () => {
 
   const BoxStyles = {
     backgroundColor: '#424657',
+    boxShadow: 'none',
   };
 
   const arrowStyles = {
     color: '#DDC79F',
+  };
+
+  const itemStyles = {
+    color: '#DDC79F',
+    backgroundColor: '#5A5F73',
+    marginBottom: '16px',
+    width: '512px',
+    height: '32px',
+    borderRadius: '20px',
+    cursor: 'pointer',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    border: 'none',
   };
 
 return (
@@ -25,50 +40,44 @@ return (
             possimus autem dignissimos, optio debitis reprehenderit 
             quis doloremque quibusdam nisi dolor labore fugit nesciunt?
         </p>
-        <div className='aq-dropdown-list'>
-      <Accordion className='faq-dropdown-list-box' style={BoxStyles}>
-        <AccordionSummary className='faq-dropdown-list-item'
-          expandIcon={<FiChevronDown style={arrowStyles}/>}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion className='faq-dropdown-list-box'>
-        <AccordionSummary className='faq-dropdown-list-item'
-          expandIcon={<FiChevronDown style={arrowStyles}/>}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion className='faq-dropdown-list-box'>
-        <AccordionSummary className='faq-dropdown-list-item'
-          expandIcon={<FiChevronDown style={arrowStyles}/>}
-          aria-controls="panel2a-content"
-          id="panel2a-header"
-        >
-          <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-    </div>
+        <div className='faq-dropdown-list'>
+          <Accordion className='faq-dropdown-list-box' style={BoxStyles}>
+            <AccordionSummary style={itemStyles}
+              expandIcon={<FiChevronDown style={arrowStyles}/>}
+            >
+              <Typography style={{color: '#DDC79F'}}>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{color: '#CECECE'}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
+              </Typography>
+            </AccordionDetails>
+          </Accordion >
+          <Accordion className='faq-dropdown-list-box' style={BoxStyles}>
+            <AccordionSummary style={itemStyles}
+              expandIcon={<FiChevronDown style={arrowStyles}/>}
+            >
+              <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{color: '#CECECE'}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+          <Accordion className='faq-dropdown-list-box' style={BoxStyles}>
+            <AccordionSummary style={itemStyles}
+              expandIcon={<FiChevronDown style={arrowStyles}/>}
+            >
+              <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography style={{color: '#CECECE'}}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+        </div>
     </div>
 )
 

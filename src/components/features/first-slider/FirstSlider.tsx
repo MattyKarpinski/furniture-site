@@ -1,33 +1,13 @@
-import './FirstSlider.scss';
-import React, { useState } from 'react'
+import './FirstSliderr.scss';
+import React, { useState } from 'react';
 import { FirstSliderItems } from './FirstSliderItems';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
-
-const slideStyles = {
-    width: "100%",
-    height: "100%",
-    borderRadius: "10px",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  };
-  
-  const sliderStyles = {
-    position: "relative",
-    height: "100%",
-  };
+import { BsDot } from 'react-icons/bs';
   
   const dotsContainerStyles = {
     display: "flex",
     justifyContent: "center",
   };
-  
-  const dotStyle = {
-    margin: "0 3px",
-    cursor: "pointer",
-    fontSize: "20px",
-  };
-
-
 
     const FirstSlider = ({ slides }) => {
         const [currentIndex, setCurrentIndex] = useState(0);
@@ -44,30 +24,34 @@ const slideStyles = {
         const goToSlide = (slideIndex) => {
           setCurrentIndex(slideIndex);
         };
-        const slideStylesWidthBackground = {
-          ...slideStyles,
-          backgroundImage: `url(${slides[currentIndex]})`,
-        };
 
   return (
-    <div className='firs-slider'>
+    <div className='first-slider'>
         <div>
         <div onClick={goToPrevious} className='left-arrow-box'>
-            <FaArrowAltCircleLeft className='left-arrow' />
+            <FaArrowAltCircleLeft className='first-slider--left-arrow'></FaArrowAltCircleLeft>
         </div>
         <div onClick={goToNext} className='right-arrow-box'>
-            <FaArrowAltCircleRight className='right-arrow'/>
+        <FaArrowAltCircleRight className='first-slider--right-arrow'></FaArrowAltCircleRight>
         </div>
       </div>
-      <div style={slideStylesWidthBackground}></div>
-      <div style={dotsContainerStyles}>
+      <div className='first-slider-slides'>
+      {FirstSliderItems.map((slide, index) => {
+                return (
+                    <div className={index === currentIndex ? 'slide active' : 'slide'} key={index}>
+                        {index === currentIndex && (<img src={slide.image} alt={slide.alt} className={slide.cName} />)}
+                    </div> 
+                )
+            })}
+      </div>
+      <div className='first-slider-dots'>
         {slides.map((slides, slideIndex) => (
           <div
-            style={dotStyle}
+            className={ slideIndex === currentIndex ? 'first-slider-dot active' : 'first-slider-dot'}
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >
-            ●
+            <i><BsDot></BsDot></i>
           </div>
         ))}
       </div>

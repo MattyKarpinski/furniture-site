@@ -11,7 +11,6 @@ import screwingself from '../../assets/photos/screwing-self.jpg';
 import faq from '../../assets/photos/faq.png';
 import FaqDropdawnList from '../../features/faq-dropdawn-list/FaqDropdawnList';
 import CooperationWrapper from '../../features/cooperation/CooperationWrapper';
-import { FaqAccordionItems } from '../../features/faq-dropdawn-list/FaqAccordionItems';
 
 
 
