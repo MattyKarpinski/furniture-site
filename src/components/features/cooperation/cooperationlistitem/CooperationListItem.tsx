@@ -1,5 +1,4 @@
 import './CooperationListItem.scss';
-import { CooperationWrapperItems } from '../CooperationWrapperItems';
 import { useEffect, useState } from 'react';
 
 

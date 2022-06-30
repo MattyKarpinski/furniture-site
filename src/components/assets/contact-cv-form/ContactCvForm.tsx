@@ -1,19 +1,39 @@
 import React from 'react'
 import './ContactCvForm.scss';
-import { Card, CardContent, Grid, TextField, Box, MenuItem, ThemeProvider } from '@mui/material';
+import { Card, CardContent, Grid, TextField, Box, MenuItem, ThemeProvider,  experimental_sx as sx } from '@mui/material';
 import { useState } from 'react';
 import { createTheme } from '@mui/material';
 
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#DDC79F'
+      main: '#DDC79F',
     },
     text: {
       primary: '#C4C4C4',
-      secondary: '#DDC79F'
-    }
-  }
+      secondary: '#DDC79F',
+    },
+    action: {
+      hover: '#323545',
+      active: '#323545',
+    },
+    background: {
+      paper: '#424657',
+    },
+  },
+  components: {
+    MuiTextField: {
+      styleOverrides: {
+        root: sx({
+          '& .MuiOutlinedInput-root': {
+            "& > fieldset": {
+              borderColor: '#DDC79F',
+            },
+          },
+        }),
+      },
+    },
+  },
 });
 
 export const ContactCvForm = () => {
@@ -61,7 +81,7 @@ export const ContactCvForm = () => {
                   onChange={handleChange}
                   helperText='Proszę wybierz stanowisko pracy'>
                     <MenuItem value='1'>Pilarz</MenuItem>
-                    <MenuItem value='2'>Malrz</MenuItem>
+                    <MenuItem value='2'>Malarz</MenuItem>
                     <MenuItem value='3'>Monter</MenuItem>
                   </TextField>
                 </Box>

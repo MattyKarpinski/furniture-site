@@ -10,7 +10,7 @@ import { SiGooglemaps } from "react-icons/si";
 import Map from '../../features/map/Map';
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 
-import { Card, CardContent, Grid, TextField, ThemeProvider, Checkbox, } from '@mui/material';
+import { Card, CardContent, Grid, TextField, ThemeProvider, Checkbox, experimental_sx as sx } from '@mui/material';
 import { createTheme } from '@mui/material';
 
 const theme = createTheme({
@@ -22,7 +22,20 @@ const theme = createTheme({
       primary: '#C4C4C4',
       secondary: '#DDC79F'
     }
-  }
+  },
+  components: {
+    MuiTextField: {
+      styleOverrides: {
+        root: sx({
+          '& .MuiOutlinedInput-root': {
+            "& > fieldset": {
+              borderColor: '#DDC79F',
+            },
+          },
+        }),
+      },
+    },
+  },
 });
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
