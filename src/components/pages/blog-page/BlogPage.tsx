@@ -7,6 +7,7 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaYoutubeSquare } from "react-icons/fa";
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
+import BlogPagination from '../../features/blog-pagination/BlogPagination';
 
 const BlogPage = () => {
   return (
@@ -91,6 +92,9 @@ const BlogPage = () => {
             <button>Czytaj więcej ...</button>
           </div>
         </div>
+      </div>
+      <div>
+      <BlogPagination></BlogPagination>
       </div>
       </div>
     </div>
