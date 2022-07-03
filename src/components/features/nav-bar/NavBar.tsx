@@ -18,6 +18,7 @@ const NavBar = () => {
 
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
+  const [navbar, setNavbar] = useState(false);
 
   const handleClick = () => setClick(true);
   const closeMobileMenu = () => setClick(false);
@@ -46,8 +47,18 @@ const NavBar = () => {
     }
   };
 
+  const changeBackground = () => {
+    if(window.scrollY >= 50) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
 
-  return <nav className='NavbarItems'>
+  window.addEventListener("scroll", changeBackground)
+
+
+  return <nav className={navbar ? 'NavbarItems active' : 'NavbarItems'}>
     <Link to='/' className='App-logo'>
       <img src={logo} alt="logo" />
     </Link>

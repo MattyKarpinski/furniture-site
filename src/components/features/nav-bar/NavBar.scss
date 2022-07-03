@@ -6,7 +6,22 @@
     justify-content: center;
     align-items: center;
     font-size: 24px;
+    z-index: 50;
+}
 
+.NavbarItems.active {
+  
+  position: fixed;
+  background: #5A5F73;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 20;
+    transition: .3s ease-in-out;
+    top: 0;
 }
 
 .nav-menu {
@@ -17,7 +32,6 @@
     list-style: none;
     margin-right: 128px;
     //margin-left: 432px;
-    
 }
 
 .nav-item {
@@ -25,8 +39,6 @@
    justify-content: center;
     //margin-left: 10px;
     //margin-right: 10px;
-    
-
 }
 
 .nav-menu a {
@@ -36,6 +48,10 @@
 
 .nav-menu a:hover {
      filter: brightness(50%);
+}
+
+.NavbarItems.active a:hover {
+  color: #CECECE;;
 }
 
 .nav-menu li:nth-child(4) i {
@@ -56,6 +72,10 @@
     height: 126px;
     cursor: pointer;
     margin-right: 304px;
+}
+
+.NavbarItems.active img {
+  display: none;
 }
 
 .menu-icon {
