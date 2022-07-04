@@ -6,6 +6,18 @@
   list-style: none;
   text-align: center;
   border-radius: 20px;
+  z-index: 20;
+}
+
+.dropdown {
+  background: #DDC79F;
+  width: 180px;
+  position: absolute;
+  top: 50px;
+  list-style: none;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 20;
 }
 
 .dropdown-menu li {
@@ -18,18 +30,24 @@
   background: #DDC79F;
 }
 
+.dropdown li:hover {
+  background: #424657;
+  border-radius: 20px;
+}
+
 .dropdown-menu.clicked {
   display: none;
 }
 
 .dropdown.active {
-  background: #5A5F73;
+  background: #DDC79F;
   width: 180px;
   position: absolute;
   top: 50px;
   list-style: none;
   text-align: center;
   border-radius: 20px;
+  z-index: 20;
 }
 
 .dropdown-link {
