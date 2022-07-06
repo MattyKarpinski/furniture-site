@@ -10,26 +10,27 @@ function DropdownMenu() {
 
   const handleClick = () => setClick(!click);
 
-  const [dropdownMenu, setDropdownMenu] = useState(false);
+  const [dropdownMenu, setDropdownMenu] = useState(true);
 
- function changeBackground () {
-    if(window.scrollY >= 160) {
+ function changeDropdownmenu () {
+    if(window.screenY>= 160) {
       setDropdownMenu(true);
     } else {
       setDropdownMenu(false);
     }
   };
 
-  window.addEventListener("scroll", changeBackground)
 
+  window.addEventListener("mouseover", changeDropdownmenu)
   
 
   return (
     <>
       <ul
         onClick={handleClick}
-        className = {click ? 'dropdown-menu' : 'dropdown-menu active' }
+        className = { click ? 'dropdown-menu clicked' : 'dropdown-menu'} 
       >
+        
         {ServicesWrapperItems.map((item, index) => {
           return (
             <li key={index}>
