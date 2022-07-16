@@ -11,3 +11,13 @@
     height: 24px;
     padding-right: 1%;
 }
+
+@media screen and (max-width: 390px) {
+
+    #Breadcrumbs,
+    #Link,
+    #Typography
+     {
+        font-size: 12px;
+    }
+}

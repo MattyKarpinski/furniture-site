@@ -2,6 +2,7 @@
     background-color: #DDC79F;
     height: 576px;
     width: 50%;
+    border-top: 1px solid #323545;
 }
 
 .text-box-services-pages--content {
@@ -24,5 +25,27 @@
     width: auto;
     color: #333646;
     text-align: justify;
-    line-height: 30px;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 390px) {
+
+    .text-box-services-pages {
+        height: auto;
+        width: auto;
+    }
+
+    .text-box-services-pages--content {
+        padding: 32px;
+    }
+
+    .text-box-services-pages h3 {
+        font-size: 18px;
+        padding-bottom: 32px;
+    }
+
+    .text-box-services-pages p {
+        font-size: 12px;
+        line-height: 24px;
+    }
 }

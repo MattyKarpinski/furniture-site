@@ -3,4 +3,17 @@
     color: #CECECE;
     padding-bottom: 43px;
     height: auto;
+    text-align: justify;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 390px) {
+
+    .text-block {
+        font-size: 12px;
+        padding-bottom: 43px;
+        text-align: justify;
+        line-height: 24px;
+        padding-bottom: 32px;
+    }
 }

@@ -1,7 +1,6 @@
 .text-box {
     display: flex;
     justify-content: center;
-    //padding-top: 84px;
 }
 
 .text-box--blocks {
@@ -10,4 +9,13 @@
     height: auto;
     border-radius: 45px;
     padding: 43px 41px 0px 41px ;
+}
+
+@media screen and (max-width: 390px) {
+
+    .text-box--blocks {
+        width: 330px;
+        border-radius: 20px;
+        padding: 16px 16px 0px 16px ;
+    }
 }

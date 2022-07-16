@@ -4,3 +4,10 @@
     align-items: center;
     padding-top: 64px;
 }
+
+@media screen and (max-width: 390px) {
+    
+    .main-content-services-pages {
+        padding-top: 32px;
+    }
+}

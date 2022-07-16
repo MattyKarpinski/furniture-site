@@ -54,7 +54,7 @@ export default function BedroomPage() {
           <img src={Bedroom1} alt="Duża sypialnia z królewskim łóżkiem" />
         </MainRowServicesPages>
         <MainRowServicesPages>
-          <img src={Bedroom2} alt="Czarna sypialnia z łóżkiem w zabudowie" />
+          
           <TextBoxServicesPages
               title="Biura komórkowe"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant 
@@ -65,6 +65,7 @@ export default function BedroomPage() {
               consectetur adipiscing elit. Dui, habitant consectetur adipiscing elit. Dui,
               habitant">
           </TextBoxServicesPages>
+          <img src={Bedroom2} alt="Czarna sypialnia z łóżkiem w zabudowie" />
         </MainRowServicesPages>
         <MainRowServicesPages>
           <TextBoxServicesPages

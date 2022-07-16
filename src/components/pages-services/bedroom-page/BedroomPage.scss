@@ -1,18 +1,20 @@
-.bedroom-page--head-section {
-    background-image: url(../../assets/breadcrumbs-background/breadcrumbs-background.jpeg);
-    background-repeat: no-repeat;
-    height: 300px;
-    width: 100%;
-    background-size: 100% 300px;
-    display: flex;
-    justify-content: center;
-}
-
 .bedroom-page--head-breadcrumbs {
     width: 1184px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     gap: 32px;
     font-size: 24px;
+}
+
+@media screen and (max-width: 390px) {
+
+    .bedroom-page--head-breadcrumbs {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+        font-size: 24px;
+    }
 }

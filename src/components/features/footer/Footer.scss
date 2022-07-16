@@ -15,7 +15,6 @@
     padding-bottom: 32px;
     display: flex;
     justify-content: center;
-    gap: 32px;
     align-content: center;
     gap: 32px;
 }
@@ -102,4 +101,18 @@
 
 .footer-signature a:hover {
     font-weight: 700;
+}
+
+@media screen and (max-width: 390px) {
+
+    .footer-main{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .footer-description {
+        font-size: 12px;
+        width: 240px;
+        height: auto;
+    }
 }

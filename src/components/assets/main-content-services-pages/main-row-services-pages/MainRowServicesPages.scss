@@ -7,3 +7,17 @@
     width: 50%;
     height: 576px;
 }
+
+@media screen and (max-width: 390px) {
+
+    .main-row-services-pages {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .main-row-services-pages img {
+        width: 100%;
+        height: 312px;
+    }
+}
