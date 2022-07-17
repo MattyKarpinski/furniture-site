@@ -4,7 +4,6 @@
     padding-bottom: 16px;
     display: flex;
     align-items: center;
-
 }
 
 .footer-services-items--icon {
@@ -22,4 +21,16 @@
 .footer-services-items--link:hover {
     color: #DDC79F;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 390px) {
+
+    .footer-services-items--wrapper {
+        font-size: 12px;
+    }
+    
+    .footer-services-items--icon {
+        font-size: 12px;
+    }
+    
 }
