@@ -4,7 +4,6 @@
     padding-bottom: 16px;
     display: flex;
     align-items: center;
-
 }
 
 .footer-pages-items--icon {
@@ -22,4 +21,24 @@
 .footer-pages-items--link:hover {
     color: #DDC79F;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 390px) {
+
+    .footer-pages-items--wrapper {
+        font-size: 12px;
+        padding-bottom: 16px;
+        width: auto;
+    }
+    
+    .footer-pages-items--icon {
+        font-size: 12px;
+    }
+    
+    .footer-pages-items--link {
+        font-size: 12px;
+        text-decoration: none;
+        color: #fff;
+        width: auto;
+    }
 }

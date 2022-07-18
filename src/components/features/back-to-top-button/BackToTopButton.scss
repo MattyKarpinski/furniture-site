@@ -13,7 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 
 .back-to-top-button--icon {
@@ -29,4 +28,9 @@
 .back-to-top-button--icon:hover {
     font-size: 40px;
     color: #323545;
+}
+
+@media screen and (max-width: 390px) {
+
+    
 }

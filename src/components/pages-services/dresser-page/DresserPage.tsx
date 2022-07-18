@@ -54,7 +54,6 @@ export default function DresserPage() {
           <img src={Dresser1} alt="Zielona podwójna komoda" />
         </MainRowServicesPages>
         <MainRowServicesPages>
-          <img src={Dresser2} alt="Nowoczesna czarna komoda" />
           <TextBoxServicesPages
               title="Biura komórkowe"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant 
@@ -65,6 +64,7 @@ export default function DresserPage() {
               consectetur adipiscing elit. Dui, habitant consectetur adipiscing elit. Dui,
               habitant">
           </TextBoxServicesPages>
+          <img src={Dresser2} alt="Nowoczesna czarna komoda" />
         </MainRowServicesPages>
         <MainRowServicesPages>
           <TextBoxServicesPages

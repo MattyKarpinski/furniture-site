@@ -30,10 +30,8 @@ const LandingPage = () => {
         <FirstSlider slides={FirstSliderItems}></FirstSlider>
       </div>
     </section>
-
     <section id='second'>
     <h2>POZNAJ NASZĄ HISTORIĘ</h2>
-    <p>POZNAJ NASZĄ HISTORIĘ</p>
     <div className='history'>
       <img src={carpenterworker} alt="carpenter worker" />
       <div className='diy'>
@@ -50,10 +48,8 @@ const LandingPage = () => {
       </div>
     </div>
     </section>
-
     <section id='third'>
     <h2>ZAUFAJ NAM</h2>
-    <p className='third-p'>ZAUFAJ NAM</p>
     <div className='trust-us'>
       <div className='trust-us-list'>
         <ul>

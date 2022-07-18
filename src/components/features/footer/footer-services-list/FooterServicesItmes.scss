@@ -1,5 +1,5 @@
 .footer-services-items--wrapper {
-    font-size: 18px;
+   
     color: #fff;
     padding-bottom: 16px;
     display: flex;
@@ -14,6 +14,7 @@
 }
 
 .footer-services-items--link {
+    font-size: 18px;
     text-decoration: none;
     color: #fff;
 }
@@ -26,11 +27,15 @@
 @media screen and (max-width: 390px) {
 
     .footer-services-items--wrapper {
-        font-size: 12px;
+        width: auto;
     }
     
     .footer-services-items--icon {
         font-size: 12px;
+    }
+
+    .footer-services-items--link {
+        font-size: 12px; 
     }
     
 }

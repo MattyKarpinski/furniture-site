@@ -49,3 +49,41 @@
     color: #DDC79F;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 390px) {
+
+    .footer-information {
+        display: flex;
+    }
+
+    .footer-information--row1 {
+       align-items: center;
+    }
+
+    .footer-information h3 {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .footer-information i {
+        color: #DDC79F;
+        padding-right: 16px;
+        padding-left: 16px;
+        font-size: 12px;
+    }
+    
+    .footer-information span, a {
+        color: #fff;
+        font-size: 12px;
+        width: auto;
+    }
+
+    .footer-information--tel a{
+        font-size: 12px;
+    }
+
+    .footer-information i {
+        padding-left: 0px;
+        font-size: 12px;
+    }
+}

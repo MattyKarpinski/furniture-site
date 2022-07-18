@@ -54,7 +54,6 @@ export default function OfficesPage() {
           <img src={Office1} alt="Przestrzeń do pracy z biurkiem wieloosobowym" />
         </MainRowServicesPages>
         <MainRowServicesPages>
-          <img src={Office2} alt="Otwarta przestrzeń biurowa" />
           <TextBoxServicesPages
               title="Biura komórkowe"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant 
@@ -65,6 +64,7 @@ export default function OfficesPage() {
               consectetur adipiscing elit. Dui, habitant consectetur adipiscing elit. Dui,
               habitant">
           </TextBoxServicesPages>
+          <img src={Office2} alt="Otwarta przestrzeń biurowa" />
         </MainRowServicesPages>
         <MainRowServicesPages>
           <TextBoxServicesPages

@@ -7,3 +7,12 @@
     border-radius: 50px;
     border: none;
 }
+
+@media screen and (max-width: 390px) {
+
+    .first-section-button {
+        font-size: 14px;
+        height: 48px;
+        width: 162px;
+    }
+}

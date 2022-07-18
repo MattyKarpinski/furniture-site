@@ -47,12 +47,14 @@ const Footer = () => {
           </div>
           <div className='footer-main--col4'>
             <FooterInformation></FooterInformation>
-            <BackToTopButton></BackToTopButton>
+            <div className='footer-main--button'>
+              <BackToTopButton></BackToTopButton>
+            </div>
           </div>
         </div>
       </div>
       <div className='footer-signature'>
-        <span>Made with love <i><FaRegHeart></FaRegHeart></i> by <a href="#">MK</a> 2022</span>
+        <span>Made with <i><FaRegHeart></FaRegHeart></i> by <a href="#">MK</a> 2022</span>
       </div>
     </div>
   )

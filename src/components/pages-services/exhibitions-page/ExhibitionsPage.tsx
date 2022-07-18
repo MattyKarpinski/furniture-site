@@ -54,7 +54,6 @@ export default function ExhibitionsPage() {
           <img src={Exhibition1} alt="Wystawa architektoniczna" />
         </MainRowServicesPages>
         <MainRowServicesPages>
-          <img src={Exhibition2} alt="Wystawa w muzem sztuki nowoczesnej" />
           <TextBoxServicesPages
               title="Biura komórkowe"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant 
@@ -65,6 +64,7 @@ export default function ExhibitionsPage() {
               consectetur adipiscing elit. Dui, habitant consectetur adipiscing elit. Dui,
               habitant">
           </TextBoxServicesPages>
+          <img src={Exhibition2} alt="Wystawa w muzem sztuki nowoczesnej" />
         </MainRowServicesPages>
         <MainRowServicesPages>
           <TextBoxServicesPages

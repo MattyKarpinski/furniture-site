@@ -54,7 +54,6 @@ export default function TvCabinetsPage() {
           <img src={TvCabinets1} alt="Szara szafka rtv żebrowana" />
         </MainRowServicesPages>
         <MainRowServicesPages>
-          <img src={TvCabinets2} alt="Brązowa drewniana szafka rtv lata 60" />
           <TextBoxServicesPages
               title="Biura komórkowe"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant 
@@ -65,6 +64,7 @@ export default function TvCabinetsPage() {
               consectetur adipiscing elit. Dui, habitant consectetur adipiscing elit. Dui,
               habitant">
           </TextBoxServicesPages>
+          <img src={TvCabinets2} alt="Brązowa drewniana szafka rtv lata 60" />
         </MainRowServicesPages>
         <MainRowServicesPages>
           <TextBoxServicesPages

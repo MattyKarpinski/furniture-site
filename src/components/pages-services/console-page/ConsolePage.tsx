@@ -54,7 +54,6 @@ export default function ConsolePage() {
           <img src={Console1} alt="Konsola z blatem marmurowym na połysk" />
         </MainRowServicesPages>
         <MainRowServicesPages>
-          <img src={Console2} alt="Konsola z czarnym stelarzem" />
           <TextBoxServicesPages
               title="Biura komórkowe"
               text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant 
@@ -65,6 +64,7 @@ export default function ConsolePage() {
               consectetur adipiscing elit. Dui, habitant consectetur adipiscing elit. Dui,
               habitant">
           </TextBoxServicesPages>
+          <img src={Console2} alt="Konsola z czarnym stelarzem" />
         </MainRowServicesPages>
         <MainRowServicesPages>
           <TextBoxServicesPages
