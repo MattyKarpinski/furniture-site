@@ -32,6 +32,10 @@ const FaqDropdawnList = () => {
     border: 'none',
   };
 
+  
+
+  
+
 return (
     <div className='faq-dropdown-list'>
         <h3>NAJCZĘSTSZE PYTANIA</h3>

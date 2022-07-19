@@ -7,3 +7,14 @@
     grid-column-gap: 32px; 
     grid-row-gap: 32px;
 }
+
+@media screen and (max-width: 390px) {
+
+    .listWrapper__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+        padding: 0 32px 0 32px;
+    }
+}

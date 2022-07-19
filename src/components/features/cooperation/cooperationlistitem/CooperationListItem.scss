@@ -19,3 +19,15 @@
     color: #CECECE;
     font-size: 24px;  
 }
+
+@media screen and (max-width: 390px) {
+
+    .cooperation-list-item div {
+        width: 150px;
+        height: 32px; 
+    }
+
+    .cooperation-list-item p {
+        font-size: 12px;  
+    }
+}

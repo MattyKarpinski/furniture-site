@@ -143,7 +143,7 @@
 
     .history {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         gap: 16px;
@@ -240,7 +240,7 @@
 
     .trust-us {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 0px;
@@ -248,9 +248,39 @@
     }
 
     .trust-us img {
-        width: 608px;
-        height: 456px;
-        border-radius: 40px;
+        width: 390px;
+        height: 293px;
+        border-radius: 0px;
+    }
+
+    .trust-us-list ul {
+        width: auto;
+        height: auto;
+        border-radius: 0px;
+        padding: 0 16px 16px 16px;
+    }
+
+    .trust-us-list li {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 150px;
+        height: auto;  
+        padding-top: 16px;
+    }
+
+    .trust-us-list h3 {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .trust-us-list p {
+        font-size: 12px;
+        height: auto;
+        width: auto ;
+        text-align: justify;
+        padding-top: 16px;
+        line-height: 24px;
     }
 }
 
@@ -292,11 +322,57 @@
     padding-top: 11px;
 }
 
+@media screen and (max-width: 390px) {
+
+    #fourth {
+        padding-top: 16px;
+    }
+
+    .data-banner {
+        height: 228px;
+        width: auto;
+    }
+
+    .data-banner ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 70px;
+        grid-row-gap: 0px;
+        }
+
+    .data-banner li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .data-banner span {
+        font-size: 24px;
+    }
+
+    .data-banner p {
+        font-size: 12px;
+        padding-top: 11px;
+    } 
+}
+
 
 // --- Section Fifth ---//
 
 .services-list {
     padding: 64px 128px 0 128px;  
+}
+
+@media screen and (max-width: 390px) {
+
+    .services-list {
+        padding: 32px 0 0 0;  
+        display: flex;
+        justify-content: center;
+        width: auto;
+    } 
 }
 
 // --- Section Sixth ---//
@@ -307,6 +383,13 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 390px) {
+
+    .our-realisation {
+        padding: 32px 0 0 0;
+    }
+}
+
 // --- Section Seventh ---//
 
 .faq {
@@ -315,13 +398,12 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
-   
 }
+
 .faq-mark {
     width: 576px;
     height: 415px;
 }
-
 
 .faq-mark-image {
     width: 576px;
@@ -348,8 +430,47 @@
     color: #DDC79F;
 }
 
+@media screen and (max-width: 390px) {
+
+    .faq {
+        padding: 32px 0 0 0; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .faq-mark,
+    .faq-mark-image {
+        width: 326px;
+        height: 240px;
+    }
+
+    .faq-button {
+        height: 37px;
+        width: 145px; 
+        z-index: 5;
+        object-position: 50% 10%;
+        transform: translate(90px, -130px);
+    }
+
+    .faq-button a {
+        font-size: 18px;
+    }
+}
+
 // --- Section Eighth ---//
 
 .cooperation {
     padding: 64px 128px 0px 128px; 
+}
+
+@media screen and (max-width: 390px) {
+
+    .cooperation {
+        display: flex;
+        justify-content: center;
+        padding: 32px 0 0 0; 
+    }
 }

@@ -54,28 +54,24 @@ const LandingPage = () => {
       <div className='trust-us-list'>
         <ul>
           <li>
-            <i></i>
             <h3>LOREM IPSUM</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quos molestias tempore nostrum sequi tenetur? Officiis dolorum,
             </p>
           </li>
           <li>
-            <i></i>
             <h3>LOREM IPSUM</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quos molestias tempore nostrum sequi tenetur? Officiis dolorum,
             </p>
           </li>
           <li>
-            <i></i>
             <h3>LOREM IPSUM</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quos molestias tempore nostrum sequi tenetur? Officiis dolorum,
             </p>
           </li>
           <li>
-            <i></i>
             <h3>LOREM IPSUM</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Quos molestias tempore nostrum sequi tenetur? Officiis dolorum,
@@ -86,7 +82,6 @@ const LandingPage = () => {
       <img src={screwingself} alt="screwing self" />
     </div>
     </section>
-
     <section id='fourth'>
       <div className='data-banner'>
         <ul>
@@ -109,26 +104,20 @@ const LandingPage = () => {
         </ul>
       </div>
   </section>
-
   <section id='fifth'>
     <h2>USŁUGI</h2>
-    <p className='third-p'>USŁUGI</p>
     <div className='services-list'>
       <ServicesWrapper></ServicesWrapper>
     </div>
   </section>
-
   <section id='sixth'>
     <h2>NASZE REALIZACJE</h2>
-    <p className='third-p'>NASZE REALIZACJE</p>
     <div className='our-realisation'>
       <SecondSlider slides={SecondSliderItems}></SecondSlider>
     </div>
   </section>
-
   <section id='seventh'>
     <h2>FAQ</h2>
-    <p className='third-p'>FAQ</p>
     <div className='faq'>
       <div className='faq-mark'>
         <img className='faq-mark-image' src={faq} alt="faq mark"></img>
@@ -139,10 +128,8 @@ const LandingPage = () => {
       <FaqDropdawnList></FaqDropdawnList>
     </div>
   </section>
-
   <section id='eighth'>
     <h2>WSPÓŁPRACA</h2>
-    <p className='third-p'>WSPÓŁPRACA</p>
     <div className='cooperation'>
       <CooperationWrapper></CooperationWrapper>
     </div>

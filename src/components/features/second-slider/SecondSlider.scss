@@ -43,3 +43,28 @@
     opacity: 1;
     transition-duration: 1s;
 }
+
+@media screen and (max-width: 390px) {
+
+    .second-slider {
+        border-radius: 0px;  
+    }
+    
+    .second-slider-images {
+        width: 390px;
+        height: 150px;
+        border-radius: 0px;
+    }
+
+    .right-arrow {
+        top: 40%;
+        right: 5%;
+        font-size: 35px;
+    }
+    
+    .left-arrow {
+        top: 40%;
+        left: 5%;
+        font-size: 35px; 
+    }
+}

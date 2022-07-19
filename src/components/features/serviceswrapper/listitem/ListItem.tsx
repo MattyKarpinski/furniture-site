@@ -17,7 +17,7 @@ const ListItem = ({data}) => {
                 <FaProjectDiagram className='listItem__wrapper__icon'/>
                 <h3 className='listItem__wrapper__header'>{data.header}</h3>
             </div>
-            <div className='listItem__wrapper__bottm'>
+            <div className='listItem__wrapper__bottom'>
                 <p className='listItem__wrapper__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Dui, habitant consectetur adipiscing elit. Dui, habitant</p>
                 <Link to={data.link}>
