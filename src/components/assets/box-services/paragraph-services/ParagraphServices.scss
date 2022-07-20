@@ -7,3 +7,15 @@
     width: 488px;
     padding: 22px 0 22px 0;
 }
+
+@media screen and (max-width: 390px) {
+
+    .services--paragraph {
+        font-size: 12px;
+        line-height: 24px;
+        height: auto;
+        text-align: justify;
+        width: auto;
+        padding: 0px 16px 16px 16px;
+    }
+}

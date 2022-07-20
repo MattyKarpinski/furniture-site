@@ -5,14 +5,11 @@
     flex-direction: column;
     align-items: center;
 
-
-
     border-radius: 8px;
 
     --b:10px;   /* thickness of the border */
     --c:#DDC79F;   /* color of the border */
     --w:115px;  /* width of border */
-    
   
     border:var(--b) solid transparent; /* space for the border */
     --g:#424657 90deg,var(--c) 0;
@@ -25,6 +22,15 @@
     background-origin:border-box;
     background-repeat:no-repeat;
     background-color: #424657;
+}
+
+@media screen and (max-width: 390px) {
+
+  .box-about-us {
+    width: auto;
+    height: auto;
+    --w:77px;  
+  }
 }
 
 

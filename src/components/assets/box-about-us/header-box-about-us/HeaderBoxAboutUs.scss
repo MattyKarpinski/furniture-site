@@ -4,3 +4,14 @@
     text-transform: uppercase;
     padding: 35px 0px 35px 0px;
 }
+
+@media screen and (max-width: 390px) {
+
+    .box-about-us--header {
+        font-size: 18px;
+        width: auto;
+        height: auto;
+        padding: 28px 0px 28px 0px;
+        text-align: center;
+    }
+}

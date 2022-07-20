@@ -16,3 +16,19 @@
     width: 488px;
     height: 223px;
 }
+
+@media screen and (max-width: 390px) {
+
+    .info-services--boxs {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 32px;
+        padding: 0 32px 0 32px;
+    }
+
+    .info-services--boxs img {
+        width: 320px;
+        height: 175px;
+    }
+}

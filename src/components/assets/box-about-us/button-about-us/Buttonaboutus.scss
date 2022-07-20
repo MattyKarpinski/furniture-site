@@ -16,3 +16,21 @@
     color: #323545;
     font-size:  24px;
 }
+
+@media screen and (max-width: 390px) {
+
+    .button-about-us {
+        margin: 0px 0px 16px 0px;
+        width: 169px;
+        height: 52px;
+        border-radius: 50px;
+        background-color: #DDC79F;
+        border-color: #DDC79F;
+        border: 1px;
+    }
+    
+    .button-about-us span {
+        font-size:  18px;
+    }
+  }
+  

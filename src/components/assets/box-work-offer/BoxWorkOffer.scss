@@ -12,7 +12,6 @@
     align-items: center;
 }
 
-
 .box-work-offer--header {
     font-size: 24px;
     color: #323545;
@@ -27,4 +26,26 @@
     display: flex;
     justify-content: space-between;
     gap: 32px;
+}
+
+@media screen and (max-width: 390px) {
+
+    .box-work-offer{
+        width: auto;
+        height: auto;
+    }
+
+    .box-work-offer--head {
+        height: 47px;
+    }
+
+    .box-work-offer--body {
+        width: auto;
+        height: auto;
+        padding-top: 16px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+    }
 }
