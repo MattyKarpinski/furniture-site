@@ -32,14 +32,17 @@
 @media screen and (max-width: 390px) {
 
     .faq-dropdown-list {
-        width: auto;
+        width: 330px;
         height: auto;
+        padding: 0 0 8px 0;
+        border-radius: 20px;
     }
 
     .faq-dropdown-list h3 {
         font-size: 18px;
         color: #DDC79F;
         padding: 16px 0 16px 0;
+        text-align: justify;
     }
 
     .faq-dropdown--description {
@@ -50,7 +53,11 @@
         line-height: 24px;
     }
 
-    .MuiButtonBase-root {
-        width: 390px;
+    .MuiPaper-root {
+        padding: 0 16px 0 16px;
+    }
+
+    .css-ahj2mt-MuiTypography-root {
+        font-size: 12px;
     }
 }

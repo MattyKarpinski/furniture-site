@@ -6,6 +6,9 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
+import { sizing } from '@mui/system';
+import { ThemeProvider } from '@mui/material';
+
 
 const FaqDropdawnList = () => {
 
@@ -22,7 +25,6 @@ const FaqDropdawnList = () => {
     color: '#DDC79F',
     backgroundColor: '#5A5F73',
     marginBottom: '16px',
-    width: '512px',
     height: '32px',
     borderRadius: '20px',
     cursor: 'pointer',
@@ -32,9 +34,8 @@ const FaqDropdawnList = () => {
     border: 'none',
   };
 
-  
+ 
 
-  
 
 return (
     <div className='faq-dropdown-list'>
@@ -45,11 +46,18 @@ return (
             quis doloremque quibusdam nisi dolor labore fugit nesciunt?
         </p>
         <div className='faq-dropdown-list'>
-          <Accordion className='faq-dropdown-list-box' style={BoxStyles}>
-            <AccordionSummary style={itemStyles}
+          <Accordion className='faq-dropdown-list-box' style={BoxStyles} >
+            <AccordionSummary  style={itemStyles}
+            sx={{
+              width: {
+                sm: 'auto',
+                xl: '512px'
+              },
+            }}
               expandIcon={<FiChevronDown style={arrowStyles}/>}
             >
-              <Typography style={{color: '#DDC79F'}}>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+              <Typography style={{color: '#DDC79F'}}
+              >Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography style={{color: '#CECECE'}}>
