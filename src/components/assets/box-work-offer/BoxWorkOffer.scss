@@ -32,7 +32,7 @@
 
     .box-work-offer{
         width: auto;
-        height: auto;
+        height: 1406px;
     }
 
     .box-work-offer--head {
@@ -42,10 +42,10 @@
     .box-work-offer--body {
         width: auto;
         height: auto;
-        padding-top: 16px;
+        padding-top: 0;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        gap: 16px;
+        gap: 0;
     }
 }

@@ -57,3 +57,32 @@
 .contact-cv--form-content {
     background-color:#424657;
 }
+
+@media screen and (max-width: 768px) {
+
+    .contact-cv-form{
+        width: auto;
+        height: 975px;
+        background-color: #DDC79F;
+        border-radius: 20px;
+        margin: 0 16px 0 16px;
+    }
+
+    .contact-cv--body {
+        width: auto;
+        height: auto;
+        background-color: #424657;
+        padding: 16px 16px 0 16px;  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-cv--info {
+        color: #C4C4C4;
+        line-height: 24px;
+        font-size: 18px;
+        text-align: center;
+    }
+}

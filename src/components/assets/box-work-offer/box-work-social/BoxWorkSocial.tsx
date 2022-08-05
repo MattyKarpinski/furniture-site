@@ -5,8 +5,6 @@ import { BoxWorkHeaderSecondary } from '../box-work-header-secondary/BoxWorkHead
 import { BoxWorkParagraph } from '../box-work-paragraph/BoxWorkParagraph';
 import { BoxWorkSocialIcons } from '../box-work-social-icons/BoxWorkSocialIcons';
 
-
-
 export const BoxWorkSocial = () => {
   return <div className='box-work-social'>
     <img src={Saw} alt="Man sawing playwood"/>
@@ -15,6 +13,5 @@ export const BoxWorkSocial = () => {
       może w Twoim najbliższym otoczeniu jest zdolny stolarz, który poszukuje pracy. 
     </BoxWorkParagraph>
     <BoxWorkSocialIcons></BoxWorkSocialIcons>
-    
   </div>
 }

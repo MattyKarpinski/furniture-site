@@ -13,12 +13,13 @@
 }
 
 .post--content-left {
-    width: 142px;
+    width: auto;
     background-color: #DDC79F;
     border-radius: 20px 0 0 20px;
 }
 
 .post--date {
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,4 +106,103 @@
 .post--content-2 button:hover{
     text-decoration: 2px solid underline;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    .blog-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .blog-posts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        width: auto;
+       
+    }
+
+    .post {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 16px 0 16px;
+    }
+
+    .post--content-left {
+        width: 355px;
+        background-color: #DDC79F;
+        border-radius: 20px 20px 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .post--date {
+       width: auto;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+        padding: 16px 0 16px 0;
+        gap: 8px;
+    }
+    
+    .post--date-number {
+        font-size: 24px;
+    }
+    
+    .post--date-month {
+        font-size: 18px;
+    }
+    
+    .post--date-day {
+        font-size: 12px;
+    }
+
+    .post--content-right {
+        width: auto;
+        background-color: #424657;
+        border-radius: 0 0 20px 20px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 0;
+        padding: 16px 0 16px 0 ;
+    }
+
+    .post--content-1 img {
+        object-fit: cover;
+        width: auto;
+        height: 188px;
+    }
+
+    .post--content-2 p {
+        font-size: 12px;
+        color: #CECECE;
+        width: auto;
+        height: auto;
+        padding: 16px;
+        text-align: justify;
+    }
+
+    .post--social-icons-list li {
+        padding: 0px;
+    }
+    
+    .post--social-icons-list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+    }
 }

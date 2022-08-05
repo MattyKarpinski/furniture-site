@@ -93,9 +93,6 @@ const BlogPage = () => {
           </div>
         </div>
       </div>
-      <div>
-      <BlogPagination></BlogPagination>
-      </div>
       </div>
     </div>
   )

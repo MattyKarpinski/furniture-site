@@ -7,3 +7,10 @@
     color: #CECECE;
 }
 
+@media screen and (max-width: 390px) {
+
+    .box-work--paragraph {
+        padding: 0 16px 0 16px;
+    }
+}
+

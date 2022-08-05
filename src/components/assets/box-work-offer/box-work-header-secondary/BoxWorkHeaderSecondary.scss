@@ -9,3 +9,10 @@
     color: #fff;
     padding: 32px 0 32px 0;
 }
+
+@media screen and (max-width: 390px) {
+
+    .box-work--header-secondary {
+        padding: 16px 0 16px 0;
+    }
+}

@@ -12,9 +12,13 @@
     padding-right: 1%;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
 
     .bread-crumbs {
+        font-size: 12px;
+    }
+
+    .MuiBreadcrumbs-li {
         font-size: 12px;
     }
 }

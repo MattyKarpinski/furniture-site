@@ -33,7 +33,13 @@
         width: auto;
         display: flex;
         justify-content: center;
+        flex-direction: column; 
+    }
+
+    .box-work--characteristic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
-        
     }
 }
