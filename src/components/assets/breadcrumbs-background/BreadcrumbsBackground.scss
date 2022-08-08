@@ -10,15 +10,12 @@
     font-size: 24px;
     height: 24px;
     padding-right: 1%;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 768px) {
-
-    .bread-crumbs {
-        font-size: 12px;
-    }
-
-    .MuiBreadcrumbs-li {
+    .bread-crumbs i {
         font-size: 12px;
     }
 }

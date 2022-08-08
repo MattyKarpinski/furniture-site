@@ -8,7 +8,7 @@
     height: 576px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
 
     .main-row-services-pages {
         display: flex;
@@ -18,6 +18,6 @@
     
     .main-row-services-pages img {
         width: 100%;
-        height: 312px;
+        height: auto;
     }
 }

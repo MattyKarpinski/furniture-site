@@ -81,7 +81,8 @@ const NavBar = () => {
         <li
           className='nav-item'
           onMouseEnter={onMouseEnter}
-          onMouseLeave={onMouseLeave}>
+          onMouseLeave={onMouseLeave}
+          >
           <NavLink className='nav-links' 
             to='/uslugi' 
             onClick={closeMobileMenu}
@@ -89,9 +90,6 @@ const NavBar = () => {
           </NavLink>
           <i onClick={onDropDownMenu}><FiChevronDown className='menu-down-arrow'></FiChevronDown></i>
           {dropdown && <DropdownMenu /> }
-         
-          
-          
         </li>
         <li className='nav-item'>
           <NavLink className='nav-links' to='/praca' onClick={closeMobileMenu}>PRACA</NavLink>

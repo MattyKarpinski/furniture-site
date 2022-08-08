@@ -165,11 +165,25 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding: 32px 32px 0 32px;
+        height: auto;
+    }
+
+    .contact-page--data {
+        width: 100%;
+        height: auto;
+        padding: 0 0 32px 0;
     }
 
     .contact-page--form {
         width: auto; 
-        height: 1200px;
+        height: auto;
+        padding-bottom: 32px;
+    }
+
+    .contact-page--form-body {
+        width: auto;
+        height: auto;
     }
 
     .contact-page--information-head {
@@ -181,24 +195,28 @@
     
     .contact-page--form-content {
         width: auto;
+        height: auto;
+        padding: 0px;
     }
     
     .contact-page--information-header {
         font-size: 18px;
+        width: auto;
     }
     
     .contact-page--data-body {
         width: auto;
-        
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 16px;
-        padding: 0;
+        padding: 16px 0 16px 0;
     }
     
     .contact-page--data-body h4 {
-        font-size: 24px;
+        font-size: 18px;
         color: #DDC79F;
         font-weight: lighter;
         display: flex;
@@ -211,6 +229,7 @@
         flex-direction: column;
         align-items: center;
         gap: 32px;
+         width: auto;
     }
     
     .contact-page--data-list li:nth-child(2) {
@@ -226,17 +245,18 @@
     .contact-page--data-body i {
         color: #DDC79F;
         padding-right: 16px;
-        padding-left: 16px;
+        padding-left: 0;
         font-size: 18px;
     }
     
     .contact-page--data-body span {
         color: #CECECE;
-        font-size: 18px;
+        font-size: 12px;
     }
     
     .contact-page--email {
         display: flex;
+        width: auto;
     }
     
     .contact-page--email span {
@@ -247,6 +267,7 @@
     
     .contact-page--tel {
         padding-bottom: 16px;
+         width: auto;
     }
     
     .contact-page--tel a,
@@ -254,43 +275,15 @@
     .contact-page--email a {
         color: #CECECE;
         text-decoration: none;
-        font-size: 18px;
-    }
-    
-    .contact-page--tel a:hover,
-    .contact-page--data-list a:hover,
-    .contact-page--email a:hover {
-        color: #DDC79F;
-        text-decoration: underline;
+        font-size: 12px;
     }
     
     .contact-page--adress {
-        display: flex;
-        justify-content: flex-start;
+         width: auto;
     }
     
     .contact-page--adress div {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .contact-page--button {
-        width: 254px;
-        height: 64px;
-        background-color: #DDC79F;
-        font-size: 18px;
-        border-radius: 50px;
-        border: none;
-        color:#323545;
-    }
-    
-    .contact-page--button:hover {
-        text-decoration: underline;
-    }
-    
-    .contact-page--button-section {
-        display: flex;
-        justify-content: center;
+         width: auto;
     }
     
     .contact-page--form-content {
@@ -303,6 +296,7 @@
     
     .contact-page--form-check-box {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
+        flex-direction: column;
     }
 }

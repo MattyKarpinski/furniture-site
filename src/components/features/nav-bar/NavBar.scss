@@ -1,6 +1,6 @@
 .NavbarItems {
     background-color: #323545;
-    height: 126px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -26,8 +26,10 @@
 
 .nav-menu {
     width: 881px;
+    height: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
     margin-right: 128px;
     //margin-left: 432px;
@@ -58,7 +60,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
+  font-size: 22px;
   color: #DDC79F;
 }
 
@@ -87,12 +89,17 @@
 }
 
 @media screen and (max-width: 768px) {
+
+  .NavbarItems.active {
+    display: none;
+}
     .NavbarItems {
       display: flex;
       justify-content: space-between;
       height: 98px;
       width: auto;
       margin: 0 30px;
+      //position: fixed;
     }
   
     .NavbarItems img {
@@ -106,7 +113,7 @@
       display: flex;
       flex-direction: column;
       width: 95%;
-      height: 90vh;
+      height: auto;
       position: absolute;
       top: 0px;
       left: -100%;
@@ -114,6 +121,8 @@
       transition: all 1s ease;
       border-bottom-right-radius: 20px;
       border-top-right-radius: 20px;
+      margin: 32px 0 0 0;
+      border: 3px solid #DDC79F ;
     }
   
     .nav-menu.active {
@@ -122,6 +131,12 @@
       opacity: 1;
       transition: all 0.5s ease-out;
       z-index: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5vh;
+      padding-bottom: 20px;
+      
     }
 
     .nav-item {
@@ -132,9 +147,10 @@
   
     .nav-links {
       text-align: center;
-      padding: 2rem;
+      padding: 0.5rem;
       width: 100%;
       display: table;
+      font-size: 24px;
     }
   
     .nav-links:hover {
@@ -142,8 +158,6 @@
       border-radius: 0;
     }
 
-
-  
     .menu-icon {
       display: flex;
       top: 0;
@@ -159,6 +173,7 @@
     .menu-name {
       display: flex;
       justify-content: space-around;
+      gap: 70%;
       padding-top: 20px;
     }
 
@@ -171,6 +186,4 @@
       font-size: 46px;
       color: #DDC79F;
     }
-
-    
   }

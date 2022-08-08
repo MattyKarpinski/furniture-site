@@ -28,11 +28,12 @@
     gap: 32px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
 
     .box-work-offer{
         width: auto;
-        height: 1406px;
+        height: auto;
+        padding-bottom: 32px;
     }
 
     .box-work-offer--head {

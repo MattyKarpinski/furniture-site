@@ -101,7 +101,8 @@ const ContactPage = () => {
           </div>
           <div className='contact-page--form-body'>
           <ThemeProvider theme={theme}>
-            <Card className='contact-page--form-card' style={{border: "none", boxShadow: "none"}}>
+            <Card className='contact-page--form-card' 
+              style={{border: "none", boxShadow: "none", backgroundColor: "#424657", borderRadius: "0px"}}>
               <CardContent className='contact-page--form-content'>
                 <form>
                   <Grid  container spacing={3.5}>
@@ -124,7 +125,7 @@ const ContactPage = () => {
                       <Grid xs={12} sm={1} item >
                         <Checkbox {...label} required />
                       </Grid>
-                      <Grid xs={12} sm={10} item >
+                      <Grid xs={48} sm={10} item >
                         <span>
                           Zapoznałem się z Polityką prywatności serwisu www.staltest.pl oraz wyrażam zgodę na przetwarzanie przez Furniturezone,
                           Mazowiecka 12 01-345 Warszawa, udostępnionych przeze mnie danych osobowych na zasadach opisanych w Polityce prywatności

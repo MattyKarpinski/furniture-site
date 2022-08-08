@@ -3,3 +3,11 @@
     height: 500px;
     margin-top: 160px;
 }
+
+@media screen and (max-width: 768px) {
+
+    .map-container {
+        height: 400px;
+        margin-top: 64px;
+    }
+}

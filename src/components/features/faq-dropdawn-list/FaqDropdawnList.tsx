@@ -34,6 +34,16 @@ const FaqDropdawnList = () => {
     border: 'none',
   };
 
+  const questionStyles = {
+    color: '#DDC79F',
+    fontSize: { xs: 12, md: 12, lg: 12, xl: 18 },
+  };
+
+  const answerStyles = {
+    color: '#CECECE',
+    fontSize: { xs: 12, md: 12, lg: 12, xl: 18 },
+  };
+
  
 
 
@@ -56,11 +66,11 @@ return (
             }}
               expandIcon={<FiChevronDown style={arrowStyles}/>}
             >
-              <Typography style={{color: '#DDC79F'}}
+              <Typography sx = {questionStyles}
               >Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{color: '#CECECE'}}>
+              <Typography sx = {answerStyles}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
               </Typography>
             </AccordionDetails>
@@ -69,10 +79,10 @@ return (
             <AccordionSummary style={itemStyles}
               expandIcon={<FiChevronDown style={arrowStyles}/>}
             >
-              <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+              <Typography sx = {questionStyles}>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{color: '#CECECE'}}>
+              <Typography sx = {answerStyles}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
               </Typography>
             </AccordionDetails>
@@ -81,10 +91,10 @@ return (
             <AccordionSummary style={itemStyles}
               expandIcon={<FiChevronDown style={arrowStyles}/>}
             >
-              <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
+              <Typography sx = {questionStyles}>Lorem ipsum dolor sit amet, consectetur adipiscing. </Typography>
             </AccordionSummary>
             <AccordionDetails>
-              <Typography style={{color: '#CECECE'}}>
+              <Typography sx = {answerStyles}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dui, habitant quisque maecenas nec integer erat eu ac 
               </Typography>
             </AccordionDetails>

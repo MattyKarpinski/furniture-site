@@ -17,7 +17,7 @@
     height: 223px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 768px) {
 
     .info-services--boxs {
         display: flex;
@@ -28,7 +28,7 @@
     }
 
     .info-services--boxs img {
-        width: 320px;
-        height: 175px;
+        width: 100%;
+        height: auto;
     }
 }
