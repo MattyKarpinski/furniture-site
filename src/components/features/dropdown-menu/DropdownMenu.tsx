@@ -5,6 +5,8 @@ import './DropdownMenu.scss';
 import { ServicesWrapperItems } from '../serviceswrapper/ServicesWrapperItems';
 import { Link } from 'react-router-dom';
 
+import Typography from '@mui/material/Typography';
+
 function DropdownMenu() {
   const [click, setClick] = useState(false);
 
@@ -18,6 +20,11 @@ function DropdownMenu() {
     } else {
       setDropdownMenu(false);
     }
+  };
+
+  const dropdownStyles = {
+    height: 'auto',
+    width: 'auto',
   };
 
 

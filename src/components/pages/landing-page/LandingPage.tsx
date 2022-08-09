@@ -33,7 +33,7 @@ const LandingPage = () => {
     <section id='second'>
     <h2>POZNAJ NASZĄ HISTORIĘ</h2>
     <div className='history'>
-      <img src={carpenterworker} alt="carpenter worker" />
+    <img src={carpenterworker} alt="carpenter worker" />
       <div className='diy'>
         <h3>Lorem, ipsum dolor samet</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
@@ -47,6 +47,7 @@ const LandingPage = () => {
         </ul>
       </div>
     </div>
+    
     </section>
     <section id='third'>
     <h2>ZAUFAJ NAM</h2>

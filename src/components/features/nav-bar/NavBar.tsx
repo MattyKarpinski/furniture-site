@@ -10,8 +10,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import {FiChevronDown } from "react-icons/fi";
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
 
-
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
 
 
 const NavBar = () => {
@@ -25,7 +30,7 @@ const NavBar = () => {
 
   const onDropDownMenu = () => {
     if (window.innerWidth < 768) {
-      setDropdown(false);
+      setDropdown(true);
     } else {
       setDropdown(true);
     }
@@ -55,6 +60,11 @@ const NavBar = () => {
     }
   };
 
+  const menuStyles = {
+    height: 'auto',
+    width: 'auto',
+  };
+
   window.addEventListener("scroll", changeBackground)
 
 
@@ -78,6 +88,8 @@ const NavBar = () => {
         <li>
           <NavLink className='nav-links' to='/o-nas' onClick={closeMobileMenu}>O NSA</NavLink>
         </li>
+        
+        
         <li
           className='nav-item'
           onMouseEnter={onMouseEnter}
@@ -91,6 +103,21 @@ const NavBar = () => {
           <i onClick={onDropDownMenu}><FiChevronDown className='menu-down-arrow'></FiChevronDown></i>
           {dropdown && <DropdownMenu /> }
         </li>
+
+        <li className='nav-item'>
+          <Accordion >
+              <AccordionSummary onClick={onDropDownMenu} expandIcon={<FiChevronDown />}>
+                <Typography>
+                  <NavLink className='nav-links' to='/uslugi'onClick={closeMobileMenu}>USŁUGI</NavLink> 
+                </Typography>
+              </AccordionSummary>
+              
+              {dropdown && <DropdownMenu /> } 
+              
+            </Accordion >
+          </li>
+
+
         <li className='nav-item'>
           <NavLink className='nav-links' to='/praca' onClick={closeMobileMenu}>PRACA</NavLink>
         </li>

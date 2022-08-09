@@ -64,6 +64,10 @@
   color: #DDC79F;
 }
 
+.nav-menu li:nth-child(5) {
+  display: none;
+}
+
 .nav-menu li:nth-child(4):hover i {
   transform: rotate(-90deg);
   transition: all 0.5s ease-out;
@@ -77,7 +81,7 @@
 }
 
 .NavbarItems.active img {
-  display: none;
+  //display: none;
 }
 
 .menu-icon {
@@ -91,7 +95,7 @@
 @media screen and (max-width: 768px) {
 
   .NavbarItems.active {
-    display: none;
+    //display: none;
 }
     .NavbarItems {
       display: flex;
@@ -144,6 +148,14 @@
       //justify-content: space-between;
    
    }
+
+   .nav-menu li:nth-child(4) {
+    display: none;
+  }
+
+   .nav-menu li:nth-child(5) {
+    display: block;
+  }
   
     .nav-links {
       text-align: center;

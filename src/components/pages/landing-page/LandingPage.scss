@@ -147,17 +147,22 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
-        padding-top: 32px;
-    }
-    
-    .history img {
-        width: 390px;
-        height: 294px;
-        border-radius: 0px;
+       
     }
 
-    .history div {
-        width: 330px;
+    #second .diy {
+        margin: 0 32px 0 32px;
+    }
+    
+    #second img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        padding-top: 16px;
+    }
+
+    .history .diy {
+        width: auto;
         height: auto;
         border-radius: 20px;
         padding-top: 16px;
@@ -245,19 +250,25 @@
         align-items: center;
         gap: 0px;
         padding-top: 32px;
+        width: 100%;
     }
 
     .trust-us img {
-        width: 390px;
-        height: 293px;
+        width: 100%;
+        height: 100%;
         border-radius: 0px;
     }
 
     .trust-us-list ul {
-        width: auto;
+        width: 100%;
         height: auto;
         border-radius: 0px;
         padding: 0 16px 16px 16px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 16px;
     }
 
     .trust-us-list li {
