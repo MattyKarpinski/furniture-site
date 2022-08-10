@@ -12,6 +12,8 @@ function DropdownMenu() {
 
   const handleClick = () => setClick(!click);
 
+  const closeMobileMenu = () => setClick(!false);
+
   const [dropdownMenu, setDropdownMenu] = useState(true);
 
  function changeDropdownmenu () {
@@ -35,7 +37,7 @@ function DropdownMenu() {
     <>
       <ul
         onClick={handleClick}
-        className = { click ? 'dropdown-menu clicked' : 'dropdown-menu'} 
+        className = { click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
         
         {ServicesWrapperItems.map((item, index) => {
@@ -44,7 +46,7 @@ function DropdownMenu() {
               <Link
                 className={item.cName}
                 to={item.link}
-                onClick={() => setClick(false)}
+                onClick={closeMobileMenu}
               >
                 {item.name}
               </Link>

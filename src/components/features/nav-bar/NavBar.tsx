@@ -4,32 +4,23 @@ import logo from './logo.svg';
 import { NavLink, Link } from 'react-router-dom';
 import DropdownMenu from '../dropdown-menu/DropdownMenu';
 import 'font-awesome/css/font-awesome.min.css';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaBars } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 import {FiChevronDown } from "react-icons/fi";
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-
 
 const NavBar = () => {
 
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
-  const [navbar, setNavbar] = useState(false);
 
   const handleClick = () => setClick(true);
   const closeMobileMenu = () => setClick(false);
 
   const onDropDownMenu = () => {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 960) {
       setDropdown(true);
     } else {
       setDropdown(true);
@@ -52,23 +43,28 @@ const NavBar = () => {
     }
   };
 
-  const changeBackground = () => {
-    if(window.scrollY >= 160) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
-
   const menuStyles = {
     height: 'auto',
     width: 'auto',
+    padding: '0',
+    boxShadow: 'none',
+    "& .MuiButtonBase-root": {
+      height: '45px',
+      backgroundColor: '#424657',
+      boxShadow: 'none'
+    },
+    "& .MuiAccordionSummary-expandIconWrapper": {
+      display: 'flex',
+      justifyContent:' center',
+    },
+    "& .MuiAccordionSummary-content": {
+      display: 'flex',
+      justifyContent:' center',
+      margin: '0',
+    }
   };
 
-  window.addEventListener("scroll", changeBackground)
-
-
-  return <nav className={navbar ? 'NavbarItems active' : 'NavbarItems'}>
+  return <nav className='NavbarItems'>
     <Link to='/' className='App-logo'>
       <img src={logo} alt="logo" />
     </Link>
@@ -88,8 +84,6 @@ const NavBar = () => {
         <li>
           <NavLink className='nav-links' to='/o-nas' onClick={closeMobileMenu}>O NSA</NavLink>
         </li>
-        
-        
         <li
           className='nav-item'
           onMouseEnter={onMouseEnter}
@@ -103,21 +97,21 @@ const NavBar = () => {
           <i onClick={onDropDownMenu}><FiChevronDown className='menu-down-arrow'></FiChevronDown></i>
           {dropdown && <DropdownMenu /> }
         </li>
-
         <li className='nav-item'>
-          <Accordion >
-              <AccordionSummary onClick={onDropDownMenu} expandIcon={<FiChevronDown />}>
-                <Typography>
-                  <NavLink className='nav-links' to='/uslugi'onClick={closeMobileMenu}>USŁUGI</NavLink> 
-                </Typography>
+          <Accordion sx={menuStyles} >
+              <AccordionSummary onClick={onDropDownMenu}  sx={menuStyles}>
+                
+                  <NavLink className='nav-links' to='/uslugi' onClick={closeMobileMenu}>
+                    USŁUGI
+                  </NavLink> 
+                  <FiChevronDown className='menu-down-arrow'></FiChevronDown>
+                
               </AccordionSummary>
-              
-              {dropdown && <DropdownMenu /> } 
-              
-            </Accordion >
-          </li>
-
-
+              <AccordionDetails onClick={closeMobileMenu} sx={menuStyles}>
+                {dropdown && <DropdownMenu/> } 
+              </AccordionDetails>
+          </Accordion >
+        </li>
         <li className='nav-item'>
           <NavLink className='nav-links' to='/praca' onClick={closeMobileMenu}>PRACA</NavLink>
         </li>
@@ -130,6 +124,5 @@ const NavBar = () => {
     </ul>
   </nav>;
 }
-
 
 export default NavBar;
