@@ -1,4 +1,5 @@
 .cooperation-list-item {
+    width: auto;
     display: flex;
     justify-content: space-between;
     gap: 32px;
@@ -29,5 +30,17 @@
 
     .cooperation-list-item p {
         font-size: 12px;  
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    
+    .cooperation-list-item div {
+        width: 320px;
+        height: 64px; 
+    }
+
+    .cooperation-list-item p {
+        font-size: 18px;  
     }
 }

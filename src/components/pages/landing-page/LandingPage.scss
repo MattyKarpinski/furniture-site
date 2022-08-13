@@ -35,7 +35,7 @@
     margin-top: 32px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
 
     #first {
         display: block; 
@@ -67,6 +67,21 @@
     }
 }
 
+@media (min-width:769px) and (max-width:1024px) {
+
+    .landing h1 {
+        text-align: center;
+    }
+
+    .landing p {
+        width: auto;
+    }
+    
+    .landing-slider {
+        display: none;
+    }
+}
+
 // ---Section second---//
 #second {
     background-color: #323545;
@@ -85,6 +100,7 @@
 
 .history {
     display: flex;
+    height: auto;
     justify-content: center;
     gap: 136px;
     padding-top: 64px;
@@ -98,7 +114,7 @@
 
 .history div {
     width: 440px;
-    height: 456px;
+    height: auto;
     background-color: #424657;
     border-radius: 45px;
 }
@@ -147,7 +163,7 @@
         justify-content: center;
         align-items: center;
         gap: 16px;
-       
+        padding-top: 32px;
     }
 
     #second .diy {
@@ -181,6 +197,68 @@
     .history ul {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        padding: 16px 0 16px 0;
+        color: #CECECE;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    #second h2, #third h2,
+    #fifth h2,  #sixth h2, #seventh h2, #eighth h2 {
+        display: flex;
+        justify-content: center;
+        color: #DDC79F;
+        font-size: 24px;
+        font-weight: bold;
+        padding-top: 32px;
+    }
+
+    .history {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        padding-top: 32px;
+    }
+
+    #second .diy {
+        margin: 0 32px 0 32px;
+        height: auto;
+    }
+    
+    #second img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+        padding-top: 16px;
+    }
+
+    .history .diy {
+        width: auto;
+        height: auto;
+        border-radius: 20px;
+        padding-top: 16px;
+    }
+
+    .diy h3 {
+        font-size: 18px;
+        padding-top: 16px;
+    }
+
+    #second .history .diy p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .history ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
         align-items: center;
         gap: 32px;
         padding: 16px 0 16px 0;
@@ -295,6 +373,60 @@
     }
 }
 
+@media (min-width:769px) and (max-width:1024px) {
+    
+    .trust-us {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        padding-top: 32px;
+        width: 100%;
+    }
+
+    .trust-us img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .trust-us-list ul {
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+        padding: 0 16px 16px 16px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 32px;
+    }
+
+    .trust-us-list li {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;  
+        padding-top: 16px;
+    }
+
+    .trust-us-list h3 {
+        font-size: 18px;
+        width: auto;
+    }
+
+    .trust-us-list p {
+        font-size: 12px;
+        height: auto;
+        width: auto ;
+        text-align: justify;
+        padding-top: 16px;
+        line-height: 24px;
+    }
+}
+
 
 // ---Section Fourth ---//
 
@@ -369,14 +501,41 @@
     } 
 }
 
+@media (min-width:769px) and (max-width:1024px) {
+    
+    #fourth {
+        padding-top: 32px;
+    }
+
+    .data-banner {
+        width: auto;
+    }
+
+    .data-banner ul {
+        gap: 32px;
+    }
+
+    .data-banner li {
+        width: auto;
+    }
+
+    .data-banner span {
+        font-size: 36px;
+    }
+
+    .data-banner p {
+        font-size: 24px;
+    } 
+}
+
 
 // --- Section Fifth ---//
 
 .services-list {
-    padding: 64px 128px 0 128px;  
+    padding: 64px 0 0 0;  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     .services-list {
         padding: 32px 0 0 0;  
@@ -389,12 +548,12 @@
 // --- Section Sixth ---//
 
 .our-realisation {
-    padding: 64px 128px 0 128px;  
+    padding: 64px 0 0 0;  
     display: flex;
     justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     .our-realisation {
         padding: 32px 0 0 0;
@@ -404,7 +563,7 @@
 // --- Section Seventh ---//
 
 .faq {
-    padding: 64px 128px 0 128px; 
+    padding: 64px 0 0 0; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -444,7 +603,7 @@
 @media screen and (max-width: 768px) {
 
     .faq {
-        padding: 32px 0 0 0; 
+        padding: 32px 32px 0 32px; 
         display: flex;
         justify-content: center;
         align-items: center;
@@ -471,13 +630,40 @@
     }
 }
 
+@media (min-width:769px) and (max-width:1024px) {
+    
+    .faq {
+        padding: 32px 32px 0 32px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .faq-mark,
+    .faq-mark-image {
+        width: 326px;
+        height: 240px;
+    }
+
+    .faq-button {
+        height: 37px;
+        width: 145px; 
+        z-index: 5;
+        object-position: 50% 10%;
+        transform: translate(65%, -340%);
+    }
+}
+
 // --- Section Eighth ---//
 
 .cooperation {
-    padding: 64px 128px 0px 128px; 
+    padding: 64px 0 0 0; 
+    width: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     .cooperation {
         display: flex;

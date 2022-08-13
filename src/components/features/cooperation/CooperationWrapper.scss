@@ -2,10 +2,12 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    
     gap: 32px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
     .cooperationWrapper__wrapper {
         display: grid;

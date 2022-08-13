@@ -19,7 +19,7 @@
     padding-left: 10%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
     
     .main-header-one--background {
         height: 128px;
@@ -27,5 +27,16 @@
 
     .main-header-one {
         font-size: 36px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    
+    .main-header-one--background {
+        height: 128px;
+    }
+
+    .main-header-one {
+        font-size: 48px;
     }
 }

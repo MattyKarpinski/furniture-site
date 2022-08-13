@@ -87,3 +87,31 @@
         font-size: 12px;
     }
 }
+
+@media (min-width:769px) and (max-width:1024px) {
+
+
+
+    .footer-information h3 {
+        font-size: 18px;
+    }
+
+    .footer-information i {
+        font-size: 12px;
+    }
+    
+    .footer-information span, a {
+        color: #fff;
+        font-size: 12px;
+        width: auto;
+    }
+
+    .footer-information--tel a{
+        font-size: 12px;
+    }
+
+    .footer-information i {
+        padding-left: 0px;
+        font-size: 12px;
+    }
+}

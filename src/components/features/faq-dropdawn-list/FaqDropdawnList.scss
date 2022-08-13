@@ -1,4 +1,4 @@
-.faq-dropdown-list {
+.faq-dropdown {
     background-color: #424657;
     width: 576px;
     height: auto;
@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.faq-dropdown-list h3 {
+.faq-dropdown h3 {
     font-size: 24px;
     color: #DDC79F;
     padding-top: 32px;
@@ -24,21 +24,23 @@
 }
 
 .faq-dropdown-list {
-    padding: 0 32px 32px 32px;
+    padding: 0 16px 32px 16px;
     background-color: #424657;
     list-style: none;
+    border-radius: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 
-    .faq-dropdown-list {
-        width: 330px;
+    .faq-dropdown {
+        width: 100%;
         height: auto;
         padding: 0 0 8px 0;
         border-radius: 20px;
+        //margin: 0 32px;
     }
 
-    .faq-dropdown-list h3 {
+    .faq-dropdown h3 {
         font-size: 18px;
         color: #DDC79F;
         padding: 16px 0 16px 0;

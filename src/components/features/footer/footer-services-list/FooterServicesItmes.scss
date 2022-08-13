@@ -24,7 +24,7 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width:769px) and (max-width:1024px) {
 
     .footer-services-items--wrapper {
         width: auto;
@@ -37,5 +37,4 @@
     .footer-services-items--link {
         font-size: 12px; 
     }
-    
 }

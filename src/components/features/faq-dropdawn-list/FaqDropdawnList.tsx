@@ -48,7 +48,7 @@ const FaqDropdawnList = () => {
 
 
 return (
-    <div className='faq-dropdown-list'>
+    <div className='faq-dropdown'>
         <h3>NAJCZĘSTSZE PYTANIA</h3>
         <p className='faq-dropdown--description'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Asperiores dolore vero iusto corporis atque, eos earum

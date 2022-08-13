@@ -76,7 +76,9 @@ const NavBar = () => {
      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className='menu-name'>
           <span>MENU</span>
-          <i onClick={closeMobileMenu}><IoMdClose></IoMdClose></i>
+          <div>
+            <i onClick={closeMobileMenu}><IoMdClose></IoMdClose></i>
+          </div>
         </li>
         <li className='nav-item'>
           <NavLink className='nav-links' to='/' onClick={closeMobileMenu}>STRONA GŁÓWNA</NavLink>
