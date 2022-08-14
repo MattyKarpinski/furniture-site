@@ -4,8 +4,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
     grid-column-gap: 32px;
-    grid-row-gap: 0px;
-    
+    grid-row-gap: 0px; 
 }
 
 .box-work--characteristic { grid-area: 1 / 1 / 2 / 3; }
@@ -43,3 +42,16 @@
         flex-direction: column;
     }
 }
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .box-work-description {
+        width: 100%;
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        grid-column-gap: 32px;
+        grid-row-gap: 16px; 
+    }
+}
+

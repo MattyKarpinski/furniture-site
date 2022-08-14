@@ -84,7 +84,7 @@ const NavBar = () => {
           <NavLink className='nav-links' to='/' onClick={closeMobileMenu}>STRONA GŁÓWNA</NavLink>
         </li>
         <li>
-          <NavLink className='nav-links' to='/o-nas' onClick={closeMobileMenu}>O NSA</NavLink>
+          <NavLink className='nav-links' to='/o-nas' onClick={closeMobileMenu}>O NAS</NavLink>
         </li>
         <li
           className='nav-item'

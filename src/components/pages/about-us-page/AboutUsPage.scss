@@ -38,18 +38,22 @@
     #info-about-us {
         display: flex;
         justify-content: center;
+        padding: 0 32px 0 32px;
+        
     }
     
     .info-about-us--boxs img {
-        width: 575px;
-        height: 575px;
+        width: 100%;
+        max-width: 400px;
+        height: 463px;
     }
     
     .info-about-us--boxs {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
-        grid-column-gap: 34px;
-        grid-row-gap: 64px;
+        grid-column-gap: 16px;
+        grid-row-gap: 32px;
+       
     }
 }

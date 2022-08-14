@@ -32,4 +32,38 @@
         height: 185px;
         width: 355px;
     }
+
+    .box-work-social div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .box-work-social {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 0;
+        gap: 16px;
+    }
+
+    .box-work-social img {
+        object-fit: cover;
+        height: 267px;
+        width: 100%;
+        max-width: 262px;
+    }
+
+    .box-work-social div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }

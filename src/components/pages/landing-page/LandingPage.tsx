@@ -23,7 +23,7 @@ const LandingPage = () => {
     <section id='first'>
       <div className='landing'>
        <h1>ZAKŁAD <br></br> STOLARSKI</h1>
-       <p>MEBLE NA WMIAR</p>
+       <p>MEBLE NA WYMIAR</p>
        <Button></Button>
       </div>
       <div className='landing-slider'>

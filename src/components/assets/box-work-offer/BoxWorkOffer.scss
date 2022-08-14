@@ -50,3 +50,37 @@
         gap: 0;
     }
 }
+
+@media (min-width:769px) and (max-width:1024px) {
+
+    .box-work-offer--head {
+        width: 100%;
+    }
+    
+    .box-work-offer--header {
+        width: 100%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .box-work-offer{
+        width: auto;
+        height: auto;
+        padding-bottom: 16px;
+    }
+
+    .box-work-offer--head {
+        height: 47px;
+    }
+
+    .box-work-offer--body {
+        width: auto;
+        height: auto;
+        background-color: #424657;
+        padding: 0 32px 0 32px;
+        justify-content: center;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
