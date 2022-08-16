@@ -12,6 +12,7 @@ import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 
 import { Card, CardContent, Grid, TextField, ThemeProvider, Checkbox, experimental_sx as sx } from '@mui/material';
 import { createTheme } from '@mui/material';
+import { Helmet } from 'react-helmet-async';
 
 const theme = createTheme({
   palette: {
@@ -44,6 +45,11 @@ const ContactPage = () => {
 
   return (
     <div className='contact-page'>
+      <Helmet>
+        <title>Zapraszamy do kontaktu z zakładem stolarskim Furniture Zone z Warszawy</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/kontakt'></link>
+      </Helmet>
       <MainHeaderOne> Kontakt</MainHeaderOne>
       <MainHeaderTwo>Zapraszamy do kontaktu</MainHeaderTwo>
       <TextBox>

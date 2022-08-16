@@ -1,5 +1,4 @@
 import React from 'react'
-import HeadSectionBackground  from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 import './TvCabinetsPage.scss';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
@@ -11,10 +10,16 @@ import TvCabinets2 from '../../assets/photos/tv-cabinets-photos/tv-cabinets2.jpg
 import TvCabinets3 from '../../assets/photos/tv-cabinets-photos/tv-cabinets3.jpg';
 import { MainContentServicesPages } from '../../assets/main-content-services-pages/MainContentServicesPages';
 import { MainRowServicesPages } from '../../assets/main-content-services-pages/main-row-services-pages/MainRowServicesPages';
+import { Helmet } from 'react-helmet-async';
 
 export default function TvCabinetsPage() {
   return (
     <div className='offices-page'>
+      <Helmet>
+        <title>Szafki telewizyjne, rtv, multimedialne od Furniuture Zone</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/uslugi/szafki-rtv'></link>
+      </Helmet>
       <div className='bedroom-page--text-section'>
         <MainHeaderOne> Szafki RTV</MainHeaderOne>
         <MainHeaderTwo>Modernistyczne szafki rtv</MainHeaderTwo>

@@ -11,10 +11,16 @@ import Dresser2 from '../../assets/photos/dresser-photos/dresser2.jpg';
 import Dresser3 from '../../assets/photos/dresser-photos/dresser3.jpg';
 import { MainContentServicesPages } from '../../assets/main-content-services-pages/MainContentServicesPages';
 import { MainRowServicesPages } from '../../assets/main-content-services-pages/main-row-services-pages/MainRowServicesPages';
+import { Helmet } from 'react-helmet-async';
 
 export default function DresserPage() {
   return (
     <div className='kitchens-page'>
+      <Helmet>
+        <title>Praktyczne komody do salonu i sypialnii - Furniture Zone</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/uslugi/komody'></link>
+      </Helmet>
       <div className='bedroom-page--text-section'>
         <MainHeaderOne> Komody</MainHeaderOne>
         <MainHeaderTwo>Szykowne i gustowne komody</MainHeaderTwo>

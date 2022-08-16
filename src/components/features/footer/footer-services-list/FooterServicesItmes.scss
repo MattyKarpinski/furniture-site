@@ -24,6 +24,17 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+
+    .footer-services-items--icon {
+        font-size: 12px;
+    }
+
+    .footer-services-items--link {
+        font-size: 12px; 
+    }
+}
+
 @media (min-width:769px) and (max-width:1024px) {
 
     .footer-services-items--wrapper {

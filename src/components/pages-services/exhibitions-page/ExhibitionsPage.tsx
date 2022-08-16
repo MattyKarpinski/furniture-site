@@ -1,5 +1,4 @@
 import React from 'react'
-import HeadSectionBackground  from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 import './ExhibitionsPage.scss';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
@@ -11,10 +10,16 @@ import Exhibition2 from '../../assets/photos/exhibitions-photos/exhibition2.jpg'
 import Exhibition3 from '../../assets/photos/exhibitions-photos/exhibition3.jpg';
 import { MainContentServicesPages } from '../../assets/main-content-services-pages/MainContentServicesPages';
 import { MainRowServicesPages } from '../../assets/main-content-services-pages/main-row-services-pages/MainRowServicesPages';
+import { Helmet } from 'react-helmet-async';
 
 export default function ExhibitionsPage() {
   return (
     <div className='offices-page'>
+      <Helmet>
+        <title>Wystawy sklepowe, muzelane ręcznie wykonane w zakładzie stolarskim | Warszawa</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/uslugi/wystawy'></link>
+      </Helmet>
       <div className='bedroom-page--text-section'>
       <MainHeaderOne> Wystawy</MainHeaderOne>
         <MainHeaderTwo>Artystyczne i muzealne wystawy</MainHeaderTwo>

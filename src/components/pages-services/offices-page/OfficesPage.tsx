@@ -1,5 +1,4 @@
 import React from 'react'
-import HeadSectionBackground  from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 import './OfficesPage.scss';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
@@ -11,10 +10,16 @@ import Office2 from '../../assets/photos/offices-photos/office2.jpg';
 import Office3 from '../../assets/photos/offices-photos/office3.jpg';
 import { MainContentServicesPages } from '../../assets/main-content-services-pages/MainContentServicesPages';
 import { MainRowServicesPages } from '../../assets/main-content-services-pages/main-row-services-pages/MainRowServicesPages';
+import { Helmet } from 'react-helmet-async';
 
 export default function OfficesPage() {
   return (
     <div className='offices-page'>
+      <Helmet>
+        <title>Przestrzenie biurowe na zamówienie Warszawa - Furniture Zone</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/uslugi/biura'></link>
+      </Helmet>
       <div className='bedroom-page--text-section'>
       <MainHeaderOne> Biura</MainHeaderOne>
         <MainHeaderTwo>Zaprojektowane przestrzenie biurowe</MainHeaderTwo>

@@ -7,11 +7,16 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { FaYoutubeSquare } from "react-icons/fa";
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
-import BlogPagination from '../../features/blog-pagination/BlogPagination';
+import { Helmet } from 'react-helmet-async';
 
 const BlogPage = () => {
   return (
     <div className='blog-page'>
+      <Helmet>
+        <title>Blog przedsiębiostwa meblarskiego Furniture Zone z Warszawy</title>
+        <meta name='description' content=''/>
+        <link rel="canonical" href='/blog'></link>
+      </Helmet>
       <MainHeaderOne>Blog</MainHeaderOne>
       <MainHeaderTwo>Najciekawsze informacje z świata mebli</MainHeaderTwo>
       <div className='blog-posts'>

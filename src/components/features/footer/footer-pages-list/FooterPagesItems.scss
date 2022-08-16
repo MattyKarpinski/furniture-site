@@ -23,6 +23,22 @@
     text-decoration: underline;
 }
 
+@media screen and (max-width: 768px) {
+
+    .footer-pages-items--wrapper {
+        font-size: 12px;
+    }
+    
+    .footer-pages-items--icon {
+        font-size: 12px;
+    }
+    
+    .footer-pages-items--link {
+        font-size: 12px;
+    }
+}
+
+
 @media (min-width:769px) and (max-width:1024px) {
 
     .footer-pages-items--wrapper {

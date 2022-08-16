@@ -18,11 +18,17 @@ import Console2 from '../../assets/photos/console-photos/console2.jpg';
 import TvCabinets3 from '../../assets/photos/tv-cabinets-photos/tv-cabinets3.jpg';
 import Exhibition3 from '../../assets/photos/exhibitions-photos/exhibition3.jpg';
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
+import { Helmet } from 'react-helmet-async';
 
 
 const ServicesPage = () => {
   return (
     <div className='services-page'>
+      <Helmet>
+        <title>Usługi stolarskie i meble na wymiar w Warszawie</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/uslugi'></link>
+      </Helmet>
       <MainHeaderOne> Usługi</MainHeaderOne>
       <MainHeaderTwo>Sprawdź ofertę</MainHeaderTwo>
       <TextBox>

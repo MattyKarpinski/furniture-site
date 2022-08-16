@@ -11,10 +11,16 @@ import Bedroom2 from '../../assets/photos/bedroom-photos/bedroom2.jpg';
 import Bedroom3 from '../../assets/photos/bedroom-photos/bedroom3.jpg';
 import { MainContentServicesPages } from '../../assets/main-content-services-pages/MainContentServicesPages';
 import { MainRowServicesPages } from '../../assets/main-content-services-pages/main-row-services-pages/MainRowServicesPages';
+import { Helmet } from 'react-helmet-async';
 
 export default function BedroomPage() {
   return (
     <div className='bedroom-page'>
+      <Helmet>
+        <title>Stylowe sypialnie i garderoby na wymiar z Warszawy</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/uslugi/sypialnie'></link>
+      </Helmet>
       <div className='bedroom-page--text-section'>
         <MainHeaderOne>Sypialnie</MainHeaderOne>
         <MainHeaderTwo>Sypialenie oraz garderoby</MainHeaderTwo>

@@ -36,12 +36,12 @@ const FaqDropdawnList = () => {
 
   const questionStyles = {
     color: '#DDC79F',
-    fontSize: { xs: 12, md: 12, lg: 12, xl: 18 },
+    fontSize: { xs: 12, md: 12, lg: 18, xl: 18 },
   };
 
   const answerStyles = {
     color: '#CECECE',
-    fontSize: { xs: 12, md: 12, lg: 12, xl: 18 },
+    fontSize: { xs: 12, md: 12, lg: 18, xl: 18 },
   };
 
  
@@ -58,12 +58,6 @@ return (
         <div className='faq-dropdown-list'>
           <Accordion className='faq-dropdown-list-box' style={BoxStyles} >
             <AccordionSummary  style={itemStyles}
-            sx={{
-              width: {
-                sm: 'auto',
-                xl: '512px'
-              },
-            }}
               expandIcon={<FiChevronDown style={arrowStyles}/>}
             >
               <Typography sx = {questionStyles}

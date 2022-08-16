@@ -3,7 +3,6 @@ import Buttonaboutus from '../../assets/box-about-us/button-about-us/Buttonabout
 import { HeaderBoxAboutUs } from '../../assets/box-about-us/header-box-about-us/HeaderBoxAboutUs';
 import { ParagraphAboutUs } from '../../assets/box-about-us/paragraph-about-us/ParagraphAboutUs';
 import { BoxAboutUs } from '../../assets/box-about-us/BoxAboutUs';
-import BreadcrumbsBackground from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { TextBlock } from '../../assets/text-block/TextBlock';
 import { TextBox } from '../../assets/text-box/TextBox';
 import Greenkitchen from '../../assets/photos/about-us-photos/green-kitchen.jpg';
@@ -13,12 +12,19 @@ import Typingnachine from '../../assets/photos/about-us-photos/typing-machine.jp
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
 import { Link } from 'react-router-dom';
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
+import { Helmet } from 'react-helmet-async';
 
 
 
 const AboutUsPage = () => {
   return (
+
     <div className='about-us-page'>
+    <Helmet>
+      <title>O nas - informacje o zakładzie stolarskim Furniture Zone</title>
+      <meta name='description' content=''/>
+      <link rel="canonical" href="/o-nas"></link>
+    </Helmet>
       <MainHeaderOne> O nas</MainHeaderOne>
       <MainHeaderTwo>Poznajmy się</MainHeaderTwo>
       <TextBox>

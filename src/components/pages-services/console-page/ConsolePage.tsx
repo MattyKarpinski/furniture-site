@@ -1,5 +1,4 @@
 import React from 'react'
-import HeadSectionBackground  from '../../assets/breadcrumbs-background/BreadcrumbsBackground';
 import { MainHeaderOne } from '../../assets/main-header-one/MainHeaderOne';
 import './ConsolePage.scss';
 import { MainHeaderTwo } from '../../assets/main-header-two/MainHeaderTwo';
@@ -11,10 +10,16 @@ import Console2 from '../../assets/photos/console-photos/console2.jpg';
 import Console3 from '../../assets/photos/console-photos/console3.jpg';
 import { MainContentServicesPages } from '../../assets/main-content-services-pages/MainContentServicesPages';
 import { MainRowServicesPages } from '../../assets/main-content-services-pages/main-row-services-pages/MainRowServicesPages';
+import { Helmet } from 'react-helmet-async';
 
 export default function ConsolePage() {
   return (
     <div className='offices-page'>
+      <Helmet>
+        <title>Nowoczesne konsole i szafki na korytarz - Furniuture Zone</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/uslugi/konsole'></link>
+      </Helmet>
       <div className='bedroom-page--text-section'>
         <MainHeaderOne> Konsole</MainHeaderOne>
         <MainHeaderTwo>Praktyczne wykorzystanie konsol</MainHeaderTwo>

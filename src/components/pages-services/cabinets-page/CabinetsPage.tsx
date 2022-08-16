@@ -11,10 +11,16 @@ import Cabinet2 from '../../assets/photos/cabinets-photos/cabinet2.jpg';
 import Cabinet3 from '../../assets/photos/cabinets-photos/cabinet3.jpg';
 import { MainContentServicesPages } from '../../assets/main-content-services-pages/MainContentServicesPages';
 import { MainRowServicesPages } from '../../assets/main-content-services-pages/main-row-services-pages/MainRowServicesPages';
+import { Helmet } from 'react-helmet-async';
 
 export default function CabinetsPage() {
   return (
     <div className='offices-page'>
+      <Helmet>
+        <title>Gabinety do pracy od stolarza z Warszawy | Furniture Zone</title>
+        <meta name='description' content=''/>
+        <link rel='canonical' href='/uslugi/gabinety'></link>
+      </Helmet>
       <div className='bedroom-page--text-section'>
         <MainHeaderOne> Gabinety</MainHeaderOne>
         <MainHeaderTwo>Profesjonalne gabinety</MainHeaderTwo>
