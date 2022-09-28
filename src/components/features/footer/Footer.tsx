@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer-signature'>
-        <span>Made with <i><FaRegHeart></FaRegHeart></i> by <a href="#">MK</a> 2022</span>
+        <span>Made with <i><FaRegHeart></FaRegHeart></i> by <a href="https://mateuszkarpinski.netlify.app/" target='_blank' rel='noreferrer'>MK</a> 2022</span>
       </div>
     </div>
   )

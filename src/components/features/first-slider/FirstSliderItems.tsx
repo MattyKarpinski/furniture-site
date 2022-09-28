@@ -1,6 +1,6 @@
-import slide1 from'../../assets/photos/first-slider-photos/slide1.jpg';
-import slide2 from'../../assets/photos/first-slider-photos/slide2.jpg';
-import slide3 from'../../assets/photos/first-slider-photos/slide3.jpg';
+import slide1 from'../../assets/photos/first-slider-photos/slide1.webp';
+import slide2 from'../../assets/photos/first-slider-photos/slide2.webp';
+import slide3 from'../../assets/photos/first-slider-photos/slide3.webp';
 
 export const FirstSliderItems = [
     {
